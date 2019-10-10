@@ -1,0 +1,107 @@
+
+Options: -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.1202 * (normalized) PKA_119_CSV_X_Fingerprint_676
+ -       0.0202 * (normalized) Fingerprint_798
+ -       0.0011 * (normalized) PWY_R_HSA_2029482
+ -       0.0081 * (normalized) PWY_R_HSA_166016
+ +       0.0133 * (normalized) PWY_R_HSA_1266738_X_PWY_R_HSA_446652
+ +       0.0036 * (normalized) PWY_R_HSA_109606_EXP
+ +       0.0044 * (normalized) REC_R_HSA_1358791_EXP_X_REC_R_HSA_198640_EXP
+ -       0.0073 * (normalized) GO_0000186_EXP_X_GO_0051493_EXP
+ -       0.0056 * (normalized) GO_0007399_EXP_X_GO_0032526_EXP
+ +       0.002  * (normalized) PKA_196_EXP
+ +       0.0013 * (normalized) REC_R_HSA_198284_X_REC_R_HSA_3928647
+ +       0.0163 * (normalized) PWY_R_HSA_194138_CSV
+ +       0.0122 * (normalized) PKA_295_CHA
+ +       0.0019 * (normalized) GO_0007420_EXP_X_GO_0031529_EXP
+ +       0.0002 * (normalized) GO_0007528_EXP
+ +       0.0216 * (normalized) GO_0030155_EXP
+ -       0.0073 * (normalized) GO_0010613_EXP_X_GO_0043330_EXP
+ +       0.0263 * (normalized) EXP_TRPM6
+ -       0.0158 * (normalized) GO_0007613_X_GO_0014066
+ +       0.0077 * (normalized) REC_R_HSA_199839_X_REC_R_HSA_429698
+ -       0.0073 * (normalized) REC_R_HSA_109858_X_REC_R_HSA_8855915
+ +       0.0028 * (normalized) GO_0038083_X_GO_1902533
+ -       0      * (normalized) GO_0045071
+ -       0.0073 * (normalized) GO_0042127
+ +       0.0049 * (normalized) EXP_GRK2_X_EXP_F2RL2
+ +       0.0123 * (normalized) PWY_R_HSA_166016_X_PWY_R_HSA_3928662
+ +       0.0073 * (normalized) GO_0034614
+ +       0.0075 * (normalized) PWY_R_HSA_193704_EXP_X_PWY_R_HSA_450321_EXP
+ -       0.0035 * (normalized) GO_0045892_EXP
+ +       0.0127 * (normalized) GO_0050852_EXP
+ -       0.0117 * (normalized) SFAM_GEK_EXP
+ +       0.0038 * (normalized) REC_R_HSA_198640_EXP
+ +       0.0123 * (normalized) PWY_R_HSA_3928662_X_PWY_R_HSA_450321
+ -       0.0072 * (normalized) EXP_GRK2_X_EXP_GNG12
+ +       0.0081 * (normalized) GO_0034599_EXP
+ +       0.0019 * (normalized) GO_0008340_EXP_X_GO_0031529_EXP
+ -       0.0037 * (normalized) GO_0030168_EXP
+ +       0.0294 * (normalized) EXP_ABL1_X_EXP_CDH2
+ +       0.0048 * (normalized) GO_0006914_EXP
+ +       0.0106 * (normalized) Fingerprint_809
+ +       0.0188 * (normalized) GO_0006366_EXP_X_GO_0071345_EXP
+ -       0.0059 * (normalized) REC_R_HSA_2316434_EXP
+ +       0.0084 * (normalized) GO_2001028_EXP
+ -       0.0168 * (normalized) MUT_CSF1R_EXP
+ +       0.0001 * (normalized) PWY_R_HSA_556833_X_PWY_R_HSA_9006934
+ -       0.0058 * (normalized) PKA_252_POL
+ +       0.0188 * (normalized) PWY_R_HSA_5218921_EXP_X_PWY_R_HSA_8939211_EXP
+ -       0.0168 * (normalized) PWY_R_HSA_446652_X_PWY_R_HSA_5218921
+ -       0.0017 * (normalized) REC_R_HSA_112379_EXP_X_REC_R_HSA_194913_EXP
+ +       0.0079 * (normalized) GO_2000378_EXP
+ +       0.007  * (normalized) GO_0006464_EXP
+ +       0.0077 * (normalized) REC_R_HSA_141409_EXP_X_REC_R_HSA_3928588_EXP
+ +       0.0013 * (normalized) PWY_R_HSA_449836_EXP_X_PWY_R_HSA_5684996_EXP
+ +       0.0013 * (normalized) REC_R_HSA_5683735_EXP_X_REC_R_HSA_751040_EXP
+ -       0.006  * (normalized) PWY_R_HSA_109581_X_PWY_R_HSA_194313
+ +       0.0059 * (normalized) GO_0007528
+ +       0.002  * (normalized) MUT_BRD2_EXP
+ -       0.0034 * (normalized) MUT_ALPK3_EXP
+ -       0.024  * (normalized) PWY_R_HSA_4420097_X_PWY_R_HSA_450321
+ -       0.0015 * (normalized) REC_R_HSA_1358791_X_REC_R_HSA_5672965
+ +       0.0053 * (normalized) GO_1901727
+ -       0.0309 * (normalized) PKA_194_CHA
+ +       0.0056 * (normalized) PWY_R_HSA_194138_EXP_X_PWY_R_HSA_5218921_EXP
+ +       0.0019 * (normalized) PWY_R_HSA_5693565_EXP_X_PWY_R_HSA_8878171_EXP
+ -       0.0065 * (normalized) MUT_TTN_EXP
+ -       0.0115 * (normalized) EXP_ABL1_X_EXP_CDKN1B
+ -       0.0117 * (normalized) PKA_189_VOL
+ +       0.004  * (normalized) GO_0045087
+ +       0.7405
+
+
+
+Number of kernel evaluations: 4083060 (94.035% cached)
+
+Time taken to build model: 3.55 seconds
+
+Time taken to test model on training data: 0.09 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.2554
+Mean absolute error                      1.5342
+Root mean squared error                  1.9662
+Relative absolute error                 94.6887 %
+Root relative squared error             97.6593 %
+Total Number of Instances             1454     
+
+Time taken to perform cross-validation: 18.84 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2275
+Mean absolute error                      1.5587
+Root mean squared error                  1.984 
+Relative absolute error                 96.1498 %
+Root relative squared error             98.4764 %
+Total Number of Instances             1454     
+

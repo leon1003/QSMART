@@ -1,0 +1,75 @@
+
+Options: -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.018  * (normalized) EXP_MET_X_EXP_PDGFD
+ -       0.0047 * (normalized) GO_0007283_X_GO_0016055
+ +       0.0172 * (normalized) PWY_R_HSA_194138_EXP
+ -       0.0107 * (normalized) GO_0008340_EXP
+ +       0.0038 * (normalized) PWY_R_HSA_194315_EXP_X_PWY_R_HSA_372790_EXP
+ +       0.0425 * (normalized) GO_0030036_X_GO_0030308
+ -       0.0047 * (normalized) GO_0009267_EXP_X_GO_0071902_EXP
+ -       0.0047 * (normalized) PWY_R_HSA_111465_EXP_X_PWY_R_HSA_372790_EXP
+ -       0.0603 * (normalized) EXP_PRKD3
+ -       0.0047 * (normalized) PKA_161_CSV
+ +       0.0577 * (normalized) EXP_SYK_X_EXP_CD2
+ -       0.0047 * (normalized) GO_0006417_EXP_X_GO_0043087_EXP
+ -       0.0169 * (normalized) PKA_250_HYD
+ -       0.0964 * (normalized) PWY_R_HSA_450282_EXP
+ -       0.0066 * (normalized) PWY_R_HSA_111465_X_PWY_R_HSA_212436
+ +       0.0583 * (normalized) PWY_R_HSA_15869_EXP
+ +       0.2094 * (normalized) PKA_189_ASA_X_Fingerprint_647
+ -       0.0047 * (normalized) REC_R_HSA_168162_X_REC_R_HSA_3928647
+ +       0.0347 * (normalized) MOT_2D_G_helix_CSV
+ +       0.0537 * (normalized) REC_R_HSA_2029459_EXP_X_REC_R_HSA_4551453_EXP
+ -       0.0047 * (normalized) GO_0008630_EXP_X_GO_0060070_EXP
+ -       0.0047 * (normalized) PWY_R_HSA_2559580_EXP_X_PWY_R_HSA_5693571_EXP
+ -       0.0047 * (normalized) PKA_282_ENG
+ -       0.0113 * (normalized) REC_R_HSA_69889
+ -       0.0047 * (normalized) REC_R_HSA_450337_EXP_X_REC_R_HSA_8874078_EXP
+ -       0.0124 * (normalized) PWY_R_HSA_74160
+ +       0.0111 * (normalized) GO_0007049
+ -       0.0047 * (normalized) GO_0006366_EXP_X_GO_0006417_EXP
+ +       0.0114 * (normalized) PWY_R_HSA_2029480_EXP
+ +       0.0228 * (normalized) GO_0035556_CSV
+ +       0.2094 * (normalized) PKA_189_ASA_X_Fingerprint_650
+ -       0.0301 * (normalized) PKA_63_CSV
+ -       0.0047 * (normalized) GO_0007420_EXP_X_GO_1902176_EXP
+ -       0.0047 * (normalized) PWY_R_HSA_109581_EXP_X_PWY_R_HSA_372790_EXP
+ +       0.0186 * (normalized) PKA_73_VOL
+ +       0.032  * (normalized) GO_0006974_X_GO_0051301
+ +       0.2424
+
+
+
+Number of kernel evaluations: 1695970 (94.134% cached)
+
+Time taken to build model: 2.06 seconds
+
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.2907
+Mean absolute error                      1.5168
+Root mean squared error                  1.9569
+Relative absolute error                 93.3926 %
+Root relative squared error             96.7568 %
+Total Number of Instances             1431     
+
+Time taken to perform cross-validation: 10.11 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2507
+Mean absolute error                      1.5484
+Root mean squared error                  1.9824
+Relative absolute error                 95.2449 %
+Root relative squared error             97.9336 %
+Total Number of Instances             1431     
+
