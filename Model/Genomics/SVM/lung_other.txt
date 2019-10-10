@@ -1,0 +1,201 @@
+
+Options: -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.0428 * (normalized) FP64
+ +       0.014  * (normalized) FP133
+ +       0.0322 * (normalized) FP141
+ -       0.0501 * (normalized) FP233
+ -       0.026  * (normalized) FP244
+ -       0.0444 * (normalized) FP390
+ -       0.032  * (normalized) FP476
+ -       0.0183 * (normalized) FP565
+ -       0.0045 * (normalized) FP567
+ +       0.045  * (normalized) FP604
+ -       0.0263 * (normalized) FP627
+ -       0.0044 * (normalized) FP677
+ -       0.0038 * (normalized) FP720
+ +       0.014  * (normalized) FP802
+ -       0.0122 * (normalized) FP833
+ -       0.0174 * (normalized) FP835
+ -       0.0123 * (normalized) FP864
+ -       0.0136 * (normalized) FP973
+ +       0.0429 * (normalized) FP1002
+ +       0.0124 * (normalized) FP1014
+ -       0.057  * (normalized) ExtFP10
+ +       0.0333 * (normalized) ExtFP249
+ -       0.02   * (normalized) ExtFP264
+ -       0.0367 * (normalized) ExtFP322
+ +       0.0053 * (normalized) ExtFP338
+ -       0.0099 * (normalized) ExtFP377
+ -       0.0959 * (normalized) ExtFP425
+ -       0.0147 * (normalized) ExtFP469
+ +       0.0279 * (normalized) ExtFP483
+ +       0.0022 * (normalized) ExtFP562
+ +       0.0263 * (normalized) ExtFP565
+ +       0.013  * (normalized) ExtFP570
+ -       0.0251 * (normalized) ExtFP627
+ +       0.012  * (normalized) ExtFP676
+ -       0.0262 * (normalized) ExtFP737
+ +       0.0408 * (normalized) ExtFP766
+ +       0.0066 * (normalized) ExtFP780
+ -       0.0038 * (normalized) ExtFP794
+ -       0.0226 * (normalized) ExtFP829
+ -       0.0331 * (normalized) ExtFP970
+ +       0.0162 * (normalized) GraphFP71
+ -       0.0551 * (normalized) GraphFP199
+ +       0.0078 * (normalized) GraphFP217
+ -       0.0096 * (normalized) GraphFP245
+ +       0.0232 * (normalized) GraphFP276
+ -       0.0197 * (normalized) GraphFP295
+ +       0.0256 * (normalized) GraphFP369
+ +       0.1107 * (normalized) GraphFP426
+ -       0.0223 * (normalized) GraphFP484
+ -       0.2374 * (normalized) GraphFP494
+ -       0.0117 * (normalized) GraphFP525
+ -       0.2056 * (normalized) GraphFP584
+ -       0.044  * (normalized) GraphFP614
+ +       0.0445 * (normalized) GraphFP628
+ -       0.0252 * (normalized) GraphFP634
+ -       0.0317 * (normalized) GraphFP682
+ +       0.0112 * (normalized) GraphFP684
+ +       0.0072 * (normalized) GraphFP746
+ -       0.012  * (normalized) GraphFP755
+ +       0.0885 * (normalized) GraphFP793
+ +       0.0336 * (normalized) GraphFP815
+ -       0.038  * (normalized) GraphFP865
+ -       0.044  * (normalized) GraphFP900
+ +       0.0097 * (normalized) GraphFP993
+ -       0.0113 * (normalized) GraphFP1007
+ -       0.044  * (normalized) GraphFP1018
+ +       0.0041 * (normalized) 1:2303393
+ +       0.0053 * (normalized) 1:43346566
+ -       0.0076 * (normalized) 1:43352574
+ -       0.0087 * (normalized) 1:47219812
+ +       0.004  * (normalized) 1:116388248
+ -       0.0076 * (normalized) 1:147614625
+ +       0.0041 * (normalized) 1:148981269
+ +       0.0041 * (normalized) 1:156115163
+ +       0.004  * (normalized) 1:157587895
+ +       0.004  * (normalized) 1:157589194
+ +       0.0053 * (normalized) 1:162775797
+ +       0.0041 * (normalized) 1:240936595
+ -       0.0076 * (normalized) 2:15945911
+ +       0.0092 * (normalized) 2:24729525
+ +       0.0053 * (normalized) 2:25743080
+ +       0.0041 * (normalized) 2:25743749
+ +       0.0053 * (normalized) 2:25743834
+ +       0.0041 * (normalized) 2:29694875
+ +       0.004  * (normalized) 2:46360952
+ -       0.0087 * (normalized) 2:70088709
+ +       0.0053 * (normalized) 2:80574269
+ +       0.004  * (normalized) 2:99593748
+ +       0.0041 * (normalized) 2:100007179
+ +       0.004  * (normalized) 2:140813810
+ +       0.004  * (normalized) 2:140923048
+ +       0.0041 * (normalized) 2:189818065
+ +       0.0041 * (normalized) 2:197400327
+ +       0.004  * (normalized) 2:201269588
+ +       0.0053 * (normalized) 2:211383803
+ +       0.0053 * (normalized) 2:211383804
+ +       0.0092 * (normalized) 2:224506908
+ -       0.0076 * (normalized) 3:10064774
+ +       0.0053 * (normalized) 3:14148921
+ +       0.004  * (normalized) 3:77634966
+ +       0.0053 * (normalized) 3:138946284
+ +       0.0041 * (normalized) 3:185465741
+ +       0.0041 * (normalized) 3:195781951
+ -       0.0087 * (normalized) 3:195782567
+ +       0.0053 * (normalized) 3:195782651
+ -       0.0076 * (normalized) 4:1918294
+ +       0.004  * (normalized) 4:48137451
+ +       0.0092 * (normalized) 4:55104957
+ +       0.0041 * (normalized) 4:55110664
+ +       0.004  * (normalized) 4:86762726
+ +       0.0041 * (normalized) 4:86762790
+ -       0.0076 * (normalized) 4:86807719
+ +       0.0041 * (normalized) 4:87047363
+ +       0.0053 * (normalized) 4:87115137
+ +       0.0092 * (normalized) 4:125450094
+ +       0.0092 * (normalized) 4:125491217
+ -       0.0076 * (normalized) 4:184631029
+ +       0.004  * (normalized) 4:184635305
+ +       0.0053 * (normalized) 4:186603447
+ +       0.0092 * (normalized) 5:11565033
+ +       0.0053 * (normalized) 5:24511491
+ +       0.0041 * (normalized) 5:24593285
+ +       0.004  * (normalized) 5:31515498
+ +       0.0053 * (normalized) 5:31526871
+ +       0.004  * (normalized) 5:38505906
+ -       0.0087 * (normalized) 5:132934919
+ +       0.004  * (normalized) 5:132937109
+ +       0.0041 * (normalized) 5:157238134
+ +       0.0092 * (normalized) 5:177244220
+ +       0.0053 * (normalized) 6:18255740
+ +       0.0041 * (normalized) 6:93410771
+ +       0.004  * (normalized) 6:117308818
+ +       0.0041 * (normalized) 6:134171103
+ +       0.0053 * (normalized) 6:134174610
+ +       0.0092 * (normalized) 6:135195904
+ +       0.004  * (normalized) 6:137876147
+ +       0.0053 * (normalized) 7:55198727
+ +       0.0041 * (normalized) 7:74042649
+ -       0.0076 * (normalized) 7:86786773
+ +       0.004  * (normalized) 7:92725635
+ +       0.0053 * (normalized) 7:98893862
+ +       0.0092 * (normalized) 7:116769721
+ +       0.0041 * (normalized) 7:137901395
+ +       0.0092 * (normalized) 7:138844348
+ +       0.0053 * (normalized) 7:143357281
+ +       0.0041 * (normalized) 8:42973403
+ +       0.0092 * (normalized) 8:68083297
+ +       0.004  * (normalized) 8:112281223
+ +       0.0053 * (normalized) 8:112506762
+ -       0.0647 * (normalized) 12:25245351
+ -       0.0076 * (normalized) 12:57469463
+ -       0.0087 * (normalized) 12:65077801
+ -       0.0076 * (normalized) 12:124343099
+ -       0.0076 * (normalized) 13:35352188
+ -       0.0087 * (normalized) 13:40560853
+ -       0.0076 * (normalized) 15:88147397
+ -       0.0076 * (normalized) 15:90767009
+ -       0.0087 * (normalized) 16:9938506
+ -       0.0087 * (normalized) 17:43106489
+ -       0.0076 * (normalized) 19:18777352
+ -       0.0087 * (normalized) 19:42290528
+ +       0.0606 * (normalized) 23:20138582
+ +       0.8574
+
+
+
+Number of kernel evaluations: -570398720
+
+Time taken to build model: 959.58 seconds
+
+Time taken to test model on training data: 0.11 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.7807
+Mean absolute error                      0.9438
+Root mean squared error                  1.2577
+Relative absolute error                 60.0539 %
+Root relative squared error             62.5863 %
+Total Number of Instances             7206     
+
+Time taken to perform cross-validation: 5996.23 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.7754
+Mean absolute error                      0.9601
+Root mean squared error                  1.2715
+Relative absolute error                 61.0822 %
+Root relative squared error             63.2628 %
+Total Number of Instances             7206     
+

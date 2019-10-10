@@ -1,0 +1,158 @@
+
+Options: -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.0136 * (normalized) FP17
+ -       0.0012 * (normalized) FP28
+ +       0.0073 * (normalized) FP32
+ +       0.0217 * (normalized) FP48
+ +       0.035  * (normalized) FP64
+ -       0.0368 * (normalized) FP104
+ -       0.0367 * (normalized) FP233
+ -       0.0157 * (normalized) FP244
+ -       0.044  * (normalized) FP390
+ -       0.0069 * (normalized) FP418
+ +       0.0002 * (normalized) FP432
+ +       0.038  * (normalized) FP471
+ +       0.0198 * (normalized) FP567
+ +       0.0139 * (normalized) FP604
+ -       0.0199 * (normalized) FP705
+ -       0.0149 * (normalized) FP713
+ -       0.0049 * (normalized) FP724
+ +       0.0025 * (normalized) FP883
+ +       0.0261 * (normalized) FP885
+ -       0.053  * (normalized) FP973
+ +       0.0284 * (normalized) FP1015
+ -       0.0655 * (normalized) ExtFP10
+ -       0.026  * (normalized) ExtFP60
+ +       0.0208 * (normalized) ExtFP65
+ +       0.0111 * (normalized) ExtFP247
+ +       0.0244 * (normalized) ExtFP249
+ -       0.0228 * (normalized) ExtFP260
+ -       0.0164 * (normalized) ExtFP264
+ -       0.007  * (normalized) ExtFP318
+ -       0.0178 * (normalized) ExtFP322
+ -       0.0031 * (normalized) ExtFP337
+ +       0.0238 * (normalized) ExtFP338
+ +       0.0139 * (normalized) ExtFP460
+ -       0.0318 * (normalized) ExtFP469
+ +       0.0325 * (normalized) ExtFP560
+ +       0.0187 * (normalized) ExtFP565
+ +       0.0023 * (normalized) ExtFP570
+ -       0.029  * (normalized) ExtFP627
+ -       0.0002 * (normalized) ExtFP676
+ -       0.0415 * (normalized) ExtFP737
+ +       0.0149 * (normalized) ExtFP766
+ -       0.021  * (normalized) ExtFP816
+ -       0.0066 * (normalized) ExtFP829
+ -       0.1018 * (normalized) GraphFP50
+ -       0.0466 * (normalized) GraphFP199
+ -       0.0573 * (normalized) GraphFP245
+ +       0.0154 * (normalized) GraphFP276
+ -       0.018  * (normalized) GraphFP283
+ +       0.0318 * (normalized) GraphFP315
+ -       0.0212 * (normalized) GraphFP333
+ +       0.0665 * (normalized) GraphFP369
+ -       0.1717 * (normalized) GraphFP494
+ -       0.0259 * (normalized) GraphFP543
+ -       0.1653 * (normalized) GraphFP584
+ -       0.0054 * (normalized) GraphFP633
+ +       0.0045 * (normalized) GraphFP634
+ -       0.0113 * (normalized) GraphFP656
+ +       0.0397 * (normalized) GraphFP697
+ -       0.0338 * (normalized) GraphFP755
+ +       0.0851 * (normalized) GraphFP793
+ +       0.0583 * (normalized) GraphFP815
+ +       0.0228 * (normalized) GraphFP851
+ -       0.0231 * (normalized) GraphFP886
+ -       0.0113 * (normalized) GraphFP987
+ +       0.0041 * (normalized) 1:7732553
+ +       0.0041 * (normalized) 1:7736469
+ -       0.0053 * (normalized) 1:11240377
+ +       0.0036 * (normalized) 1:15932400
+ +       0.0036 * (normalized) 1:26774768
+ -       0.0054 * (normalized) 1:26780130
+ -       0.0054 * (normalized) 1:50974206
+ +       0.0607 * (normalized) 1:114713907
+ +       0.0036 * (normalized) 1:114716127
+ -       0.0054 * (normalized) 1:120005390
+ +       0.0041 * (normalized) 1:154173077
+ +       0.0041 * (normalized) 1:186336615
+ -       0.0053 * (normalized) 2:32442328
+ +       0.0036 * (normalized) 2:42280861
+ +       0.0036 * (normalized) 2:45008781
+ +       0.0041 * (normalized) 2:46381709
+ -       0.0053 * (normalized) 2:47480746
+ +       0.0036 * (normalized) 2:60468792
+ +       0.0041 * (normalized) 2:74361554
+ -       0.0054 * (normalized) 2:80419563
+ -       0.0054 * (normalized) 2:80545042
+ -       0.0053 * (normalized) 2:99593939
+ -       0.0053 * (normalized) 2:100006811
+ -       0.0054 * (normalized) 2:140867691
+ +       0.0041 * (normalized) 2:140886188
+ +       0.0036 * (normalized) 2:189873634
+ +       0.0036 * (normalized) 2:215332424
+ -       0.0053 * (normalized) 3:77622425
+ -       0.0053 * (normalized) 3:138664015
+ +       0.0036 * (normalized) 3:189894246
+ +       0.0036 * (normalized) 3:189894259
+ +       0.0041 * (normalized) 4:108089142
+ +       0.0036 * (normalized) 5:24488110
+ +       0.0036 * (normalized) 5:31526765
+ +       0.0036 * (normalized) 5:56883573
+ +       0.0041 * (normalized) 5:177091049
+ +       0.0036 * (normalized) 6:405050
+ +       0.0041 * (normalized) 6:167033899
+ +       0.0041 * (normalized) 7:57120813
+ +       0.0041 * (normalized) 7:75542897
+ -       0.0277 * (normalized) 16:88901565
+ +       0.0041 * (normalized) 17:7673669
+ +       0.0036 * (normalized) 17:7674256
+ +       0.0036 * (normalized) 17:7674841
+ +       0.0036 * (normalized) 17:7674945
+ +       0.0041 * (normalized) 17:16138191
+ -       0.0053 * (normalized) 17:31326144
+ -       0.0054 * (normalized) 17:77402285
+ -       0.0054 * (normalized) 17:80298351
+ -       0.0054 * (normalized) 19:11018979
+ -       0.0054 * (normalized) 20:42085759
+ -       0.0053 * (normalized) 22:19188001
+ -       0.0054 * (normalized) 22:29299270
+ -       0.0053 * (normalized) 22:39225750
+ -       0.0054 * (normalized) 23:53201661
+ +       0.7269
+
+
+
+Number of kernel evaluations: 839265009 (63.551% cached)
+
+Time taken to build model: 416.02 seconds
+
+Time taken to test model on training data: 0.26 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.7622
+Mean absolute error                      1.1189
+Root mean squared error                  1.5661
+Relative absolute error                 58.5441 %
+Root relative squared error             65.1421 %
+Total Number of Instances             4204     
+
+Time taken to perform cross-validation: 2681.21 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.7533
+Mean absolute error                      1.1466
+Root mean squared error                  1.5911
+Relative absolute error                 59.9764 %
+Root relative squared error             66.1687 %
+Total Number of Instances             4204     
+

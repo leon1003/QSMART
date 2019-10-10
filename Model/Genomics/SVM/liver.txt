@@ -1,0 +1,87 @@
+
+Options: -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.015  * (normalized) FP50
+ -       0.0693 * (normalized) FP233
+ -       0.0434 * (normalized) FP244
+ -       0.0546 * (normalized) FP316
+ +       0.008  * (normalized) FP328
+ -       0.0498 * (normalized) FP382
+ +       0.0063 * (normalized) FP552
+ +       0.0446 * (normalized) FP604
+ -       0.0579 * (normalized) FP627
+ -       0.0242 * (normalized) FP632
+ -       0.0584 * (normalized) FP689
+ -       0.0081 * (normalized) FP702
+ +       0.0111 * (normalized) FP724
+ -       0.0276 * (normalized) FP805
+ +       0.0411 * (normalized) FP885
+ -       0.0304 * (normalized) FP898
+ +       0.045  * (normalized) FP1014
+ -       0.0555 * (normalized) ExtFP10
+ -       0.0075 * (normalized) ExtFP28
+ +       0.0038 * (normalized) ExtFP240
+ +       0.018  * (normalized) ExtFP250
+ +       0.0403 * (normalized) ExtFP338
+ -       0.0395 * (normalized) ExtFP477
+ +       0.0049 * (normalized) ExtFP780
+ -       0.1681 * (normalized) GraphFP50
+ -       0.0497 * (normalized) GraphFP58
+ -       0.0382 * (normalized) GraphFP75
+ -       0.0494 * (normalized) GraphFP199
+ -       0.0382 * (normalized) GraphFP233
+ +       0.0164 * (normalized) GraphFP496
+ -       0.0953 * (normalized) GraphFP619
+ -       0.0203 * (normalized) GraphFP692
+ -       0.004  * (normalized) GraphFP993
+ +       0.01   * (normalized) 1:7640390
+ +       0.0211 * (normalized) 1:36473793
+ +       0.01   * (normalized) 1:114713908
+ +       0.0211 * (normalized) 1:154157688
+ +       0.01   * (normalized) 2:25742766
+ +       0.01   * (normalized) 2:60462345
+ +       0.01   * (normalized) 3:41224585
+ +       0.0211 * (normalized) 3:186786177
+ +       0.01   * (normalized) 3:195781645
+ +       0.0211 * (normalized) 3:195788793
+ +       0.01   * (normalized) 3:195790142
+ +       0.0211 * (normalized) 4:86750763
+ +       0.01   * (normalized) 4:125491178
+ +       0.0211 * (normalized) 5:24535269
+ +       0.01   * (normalized) 6:106105439
+ +       0.783 
+
+
+
+Number of kernel evaluations: 2299385 (98.163% cached)
+
+Time taken to build model: 8.98 seconds
+
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.7509
+Mean absolute error                      1.0549
+Root mean squared error                  1.3924
+Relative absolute error                 62.4793 %
+Root relative squared error             66.2963 %
+Total Number of Instances             1348     
+
+Time taken to perform cross-validation: 43.9 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.7329
+Mean absolute error                      1.1019
+Root mean squared error                  1.4351
+Relative absolute error                 65.1989 %
+Root relative squared error             68.2643 %
+Total Number of Instances             1348     
+
