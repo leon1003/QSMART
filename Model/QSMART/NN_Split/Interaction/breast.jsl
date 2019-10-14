@@ -1,0 +1,43 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:PKA_104_ENG_X_Fingerprint_818,
+		:PKA_104_VOL_X_Fingerprint_644,
+		:PKA_105_POL_X_Fingerprint_791,
+		:PKA_115_EXP_X_Fingerprint_643,
+		:PKA_115_HYD_X_Fingerprint_576,
+		:PKA_124_POL_X_Fingerprint_791,
+		:PKA_145_ASA_X_Fingerprint_696,
+		:PKA_145_VOL_X_Fingerprint_696,
+		:PKA_157_HYD_X_Fingerprint_696,
+		:PKA_162_VOL_X_Fingerprint_576,
+		:PKA_192_ASA_X_Fingerprint_643,
+		:PKA_192_VOL_X_Fingerprint_643,
+		:EXP_GRK3_X_EXP_OR5M9,
+		:EXP_RIPK3_X_EXP_FADD,
+		:EXP_RIPK3_X_EXP_NFKBIA,
+		:EXP_SYK_X_EXP_CLEC7A,
+		:EXP_SYK_X_EXP_PDPN,
+		:EXP_WNK2_X_EXP_SLC12A3,
+		:REC_R_HSA_141409_EXP_X_REC_R_HSA_2316434_EXP,
+		:PWY_R_HSA_109606_EXP_X_PWY_R_HSA_418594_EXP,
+		:PWY_R_HSA_162906_X_PWY_R_HSA_69620,
+		:PWY_R_HSA_2029480_X_PWY_R_HSA_3700989,
+		:PWY_R_HSA_2187338_EXP_X_PWY_R_HSA_69273_EXP,
+		:PWY_R_HSA_2187338_X_PWY_R_HSA_382551,
+		:GO_0007411_X_GO_0034446,
+		:GO_0009615_EXP_X_GO_0070373_EXP,
+		:GO_0021766_X_GO_0030866,
+		:GO_0030155_X_GO_1901796
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit(
+		NTanH( 6 ),
+		NTanH2( 26 ),
+		Penalty Method( "Absolute" ),
+		Number of Tours( 200 )
+	)
+);
