@@ -1,0 +1,13 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:EXP_PLK3_X_EXP_PTEN,
+		:EXP_PRKCG_X_EXP_TRPV4,
+		:PWY_R_HSA_2682334_X_PWY_R_HSA_416476
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit( NTanH( 6 ), Penalty Method( "Absolute" ), Number of Tours( 300 ) )
+);

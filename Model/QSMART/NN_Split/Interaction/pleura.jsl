@@ -1,0 +1,23 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:EXP_BTK_X_EXP_CD79A,
+		:EXP_MARK3_X_EXP_IQGAP1,
+		:EXP_MARK3_X_EXP_PPP2CB,
+		:EXP_MET_X_EXP_CBLC,
+		:EXP_MET_X_EXP_FGF12,
+		:EXP_MET_X_EXP_PDGFA,
+		:EXP_MET_X_EXP_RAPGEF1,
+		:EXP_PTK6_X_EXP_CCND1
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit(
+		NTanH( 4 ),
+		NTanH2( 11 ),
+		Penalty Method( "Absolute" ),
+		Number of Tours( 200 )
+	)
+);
