@@ -1,0 +1,24 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:PKA_153_CHA,
+		:REC_R_HSA_194922,
+		:GO_0001649,
+		:GO_0001649_EXP,
+		:GO_0016477_CSV,
+		:GO_0019722_CSV,
+		:GO_0030154,
+		:GO_0045765_EXP,
+		:GO_2001240,
+		:SFAM_Csk,
+		:EXP_MINK1,
+		:EXP_LIMK2,
+		:EXP_WNK4,
+		:EXP_ROCK1
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit( NTanH( 12 ), Penalty Method( "Absolute" ), Number of Tours( 300 ) )
+);

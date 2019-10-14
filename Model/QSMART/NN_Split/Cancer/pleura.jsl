@@ -1,0 +1,20 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:MOT_2D_linker_EXP,
+		:SDOM_subdomainI_CSV,
+		:SDOM_subdomainV_CSV,
+		:EXP_BTK,
+		:EXP_CDKL4
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit(
+		NTanH( 4 ),
+		NTanH2( 11 ),
+		Penalty Method( "Absolute" ),
+		Number of Tours( 200 )
+	)
+);

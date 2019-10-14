@@ -1,0 +1,20 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:MOT_3D_RegulatorySpine_CSV,
+		:REC_R_HSA_3928602,
+		:REC_R_HSA_5218804,
+		:GO_0007286,
+		:GO_0016477_CSV,
+		:GO_0035023,
+		:GO_0048008,
+		:GO_0070372_EXP,
+		:FAM_CK1,
+		:EXP_CSNK1A1L
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit( NTanH( 8 ), Penalty Method( "Absolute" ), Number of Tours( 200 ) )
+);
