@@ -1,0 +1,8 @@
+library(glmnet)
+mydata = read.table('/Data/Training/NoDM/skin.csv',head=T,sep=",")
+x = as.matrix(mydata[,4:ncol(mydata)])
+y = as.matrix(mydata[,1])
+lasso = cv.glmnet(x,y,nfolds=10,type.measure="mse",alpha=1,family="gaussian")
+sink('/Data/Model/NoDM_Lasso/skin.txt',append=TRUE)
+print(lasso)
+sink()
