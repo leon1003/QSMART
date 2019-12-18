@@ -1,0 +1,75 @@
+
+Options: -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0988 * (normalized) From_Sanger
+ +       0.1984 * (normalized) Fingerprint_860
+ +       0.1613 * (normalized) Fingerprint_835
+ +       0.1029 * (normalized) Fingerprint_828
+ -       0.0535 * (normalized) Fingerprint_821
+ -       0.1052 * (normalized) Fingerprint_818
+ -       0.2459 * (normalized) Fingerprint_806
+ +       0.1262 * (normalized) Fingerprint_799
+ -       0.0963 * (normalized) Fingerprint_797
+ +       0.0624 * (normalized) Fingerprint_782
+ +       0.179  * (normalized) Fingerprint_780
+ -       0.0224 * (normalized) Fingerprint_712
+ +       0.0814 * (normalized) Fingerprint_710
+ +       0.0606 * (normalized) Fingerprint_697
+ +       0.0378 * (normalized) Fingerprint_694
+ +       0.2465 * (normalized) Fingerprint_687
+ +       0.0954 * (normalized) Fingerprint_686
+ -       0.0925 * (normalized) Fingerprint_677
+ +       0.0345 * (normalized) Fingerprint_672
+ +       0.0928 * (normalized) Fingerprint_669
+ +       0.2236 * (normalized) Fingerprint_648
+ -       0.0456 * (normalized) Fingerprint_646
+ +       0.0501 * (normalized) Fingerprint_635
+ -       0.0369 * (normalized) Fingerprint_629
+ -       0.0638 * (normalized) Fingerprint_611
+ +       0.0441 * (normalized) MOT_2D_linker_EXP
+ -       0.0633 * (normalized) SDOM_subdomainI_CSV
+ +       0.0102 * (normalized) SDOM_subdomainV_CSV
+ +       0.0533 * (normalized) EXP_BTK
+ -       0.0365 * (normalized) EXP_BTK_X_EXP_CD79A
+ +       0.0269 * (normalized) EXP_MARK3_X_EXP_IQGAP1
+ -       0.0201 * (normalized) EXP_MET_X_EXP_CBLC
+ +       0.0724 * (normalized) EXP_MET_X_EXP_FGF12
+ -       0.0158 * (normalized) EXP_MET_X_EXP_PDGFA
+ +       0.0244 * (normalized) EXP_MET_X_EXP_RAPGEF1
+ +       0.0642 * (normalized) EXP_PTK6_X_EXP_CCND1
+ +       0.6789
+
+
+
+Number of kernel evaluations: 1984740 (96.35% cached)
+
+Time taken to build model: 4.58 seconds
+
+Time taken to test model on training data: 0.1 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.587 
+Mean absolute error                      1.2445
+Root mean squared error                  1.6454
+Relative absolute error                 76.6221 %
+Root relative squared error             81.3535 %
+Total Number of Instances             1431     
+
+Time taken to perform cross-validation: 23.23 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.5662
+Mean absolute error                      1.2874
+Root mean squared error                  1.6769
+Relative absolute error                 79.1918 %
+Root relative squared error             82.8414 %
+Total Number of Instances             1431     
+
