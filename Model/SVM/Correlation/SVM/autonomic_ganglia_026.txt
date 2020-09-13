@@ -1,0 +1,101 @@
+
+Options: -C 0.1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 1e-05 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0416 * (normalized) Fingerprint_797
+ -       0.011  * (normalized) Fingerprint_779
+ -       0.0278 * (normalized) Fingerprint_712
+ -       0.031  * (normalized) Fingerprint_646
+ -       0.0323 * (normalized) Fingerprint_611
+ -       0.0017 * (normalized) PKA_214_Q
+ -       0.0017 * (normalized) PKA_214_Q_CSV
+ -       0.0017 * (normalized) PKA_214_Q_EXP
+ -       0.0017 * (normalized) PKA_252_ASA
+ -       0.0017 * (normalized) PKA_252_B62
+ -       0.0017 * (normalized) PKA_252_CSV
+ -       0.0017 * (normalized) PKA_252_ENG
+ -       0.0017 * (normalized) PKA_252_EXP
+ -       0.0017 * (normalized) PKA_252_HYD
+ +       0.0239 * (normalized) PWY_R_HSA_1500931_EXP
+ -       0.003  * (normalized) GO_0007155
+ -       0.0078 * (normalized) GO_0007155_CSV
+ -       0.0128 * (normalized) SFAM_MAST
+ +       0.0271 * (normalized) SFAM_MAST_EXP
+ +       0.0028 * (normalized) FAM_PKL
+ -       0.0033 * (normalized) FAM_PKL_EXP
+ -       0.0223 * (normalized) EXP_HASPIN
+ +       0.0065 * (normalized) EXP_BLK
+ +       0.0002 * (normalized) EXP_FER
+ -       0.0127 * (normalized) EXP_MAPK14
+ +       0.0278 * (normalized) EXP_SCYL1
+ +       0.0025 * (normalized) EXP_MAP3K1
+ -       0.0065 * (normalized) EXP_TIE1
+ +       0.0013 * (normalized) EXP_MAST4
+ -       0.0024 * (normalized) EXP_BLK_X_EXP_BCAR1
+ +       0.0154 * (normalized) EXP_BLK_X_EXP_DAPP1
+ +       0.0122 * (normalized) EXP_BLK_X_EXP_SLA
+ -       0.0189 * (normalized) EXP_FGR_X_EXP_APOB
+ -       0.0117 * (normalized) EXP_FGR_X_EXP_BCAR1
+ +       0.0021 * (normalized) EXP_FGR_X_EXP_DOCK2
+ +       0.0468 * (normalized) EXP_FGR_X_EXP_PDGFB
+ -       0.0102 * (normalized) EXP_FGR_X_EXP_PIK3R5
+ -       0.0198 * (normalized) EXP_GRK7_X_EXP_ADRB1
+ -       0.0205 * (normalized) EXP_GRK7_X_EXP_CCR8
+ -       0.0007 * (normalized) EXP_LRRK2_X_EXP_HACE1
+ +       0.0216 * (normalized) EXP_LRRK2_X_EXP_PPIE
+ -       0.0121 * (normalized) EXP_LRRK2_X_EXP_RANBP2
+ +       0.0135 * (normalized) EXP_LRRK2_X_EXP_TFDP1
+ -       0.0045 * (normalized) EXP_LRRK2_X_EXP_YWHAE
+ -       0.0037 * (normalized) EXP_MAP3K1_X_EXP_CD40LG
+ +       0.0008 * (normalized) EXP_MAP3K1_X_EXP_NRK
+ +       0.0247 * (normalized) EXP_MAP3K1_X_EXP_PLCG2
+ +       0.0224 * (normalized) EXP_MAP3K1_X_EXP_RHOA
+ +       0.0123 * (normalized) EXP_MAP3K1_X_EXP_SP1
+ +       0.0024 * (normalized) EXP_MAP3K1_X_EXP_TRAF1
+ -       0.0369 * (normalized) EXP_MAP3K1_X_EXP_TRAF2
+ +       0.0009 * (normalized) EXP_MAPK14_X_EXP_AGO4
+ +       0.023  * (normalized) EXP_MAPK14_X_EXP_ELAVL1
+ -       0.013  * (normalized) EXP_MAPK14_X_EXP_ESR1
+ +       0.0229 * (normalized) EXP_MAPK14_X_EXP_GNAI3
+ -       0.0258 * (normalized) EXP_MAPK14_X_EXP_H2AFZ
+ -       0.0043 * (normalized) EXP_MAPK14_X_EXP_IL2RG
+ -       0.0016 * (normalized) EXP_MAPK14_X_EXP_RNF2
+ -       0.0017 * (normalized) EXP_MAPK14_X_EXP_YWHAZ
+ +       0.0047 * (normalized) EXP_RAF1_X_EXP_BRAP
+ -       0.0195 * (normalized) EXP_RAF1_X_EXP_PIK3CB
+ -       0.0317 * (normalized) EXP_RAF1_X_EXP_SCNN1G
+ +       0.736 
+
+
+
+Number of kernel evaluations: 37276816 (33.37% cached)
+
+Time taken to build model: 11.18 seconds
+
+Time taken to test model on training data: 0.2 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.2877
+Mean absolute error                      1.4558
+Root mean squared error                  1.9243
+Relative absolute error                 94.094  %
+Root relative squared error             97.0354 %
+Total Number of Instances             2971     
+
+Time taken to perform cross-validation: 62.02 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2587
+Mean absolute error                      1.4799
+Root mean squared error                  1.9409
+Relative absolute error                 95.6238 %
+Root relative squared error             97.8411 %
+Total Number of Instances             2971     
+

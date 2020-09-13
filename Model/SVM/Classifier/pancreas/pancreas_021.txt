@@ -1,0 +1,123 @@
+
+Options: -C 0.01 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.1 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.0013 * (normalized) DOM_Pkinase_CSV
+ -       0.004  * (normalized) DOM_Pkinase_EXP
+ -       0.007  * (normalized) PWY_R_HSA_162582_EXP
+ +       0.0208 * (normalized) GO_0006468_EXP
+ -       0.0052 * (normalized) GO_0046777_EXP
+ +       0.0104 * (normalized) FAM_CAMK_EXP
+ +       0.0019 * (normalized) CLS_average_ploidy
+ -       0.0024 * (normalized) EXP_KDR
+ -       0.0174 * (normalized) EXP_TRIM66
+ +       0.0267 * (normalized) EXP_LIMK2
+ +       0.0182 * (normalized) EXP_STKLD1
+ -       0.0171 * (normalized) EXP_OXSR1
+ +       0.0253 * (normalized) EXP_MAP3K9
+ -       0.0176 * (normalized) EXP_TAF1
+ -       0.0129 * (normalized) EXP_RPS6KB1
+ -       0.0148 * (normalized) EXP_BRD3
+ +       0.0128 * (normalized) EXP_BCKDK
+ -       0.0111 * (normalized) EXP_GRK4
+ +       0.0293 * (normalized) EXP_CLK3
+ +       0.0067 * (normalized) EXP_EIF2AK1
+ -       0.0173 * (normalized) EXP_RYK
+ -       0.0103 * (normalized) EXP_MAP2K7
+ +       0.0178 * (normalized) EXP_CDC42BPG
+ -       0.011  * (normalized) EXP_MAP3K21
+ -       0.0069 * (normalized) EXP_STK26
+ +       0.0117 * (normalized) EXP_RPS6KA6
+ -       0.0035 * (normalized) EXP_ATM
+ +       0.006  * (normalized) EXP_PHKG2
+ -       0.0017 * (normalized) EXP_KDR_X_EXP_ABI1
+ +       0.0108 * (normalized) EXP_KDR_X_EXP_ABI2
+ -       0.0024 * (normalized) EXP_KDR_X_EXP_ACTA1
+ +       0.0041 * (normalized) EXP_KDR_X_EXP_ALB
+ -       0.0058 * (normalized) EXP_KDR_X_EXP_BAIAP2
+ +       0.0108 * (normalized) EXP_KDR_X_EXP_BMP4
+ -       0.0104 * (normalized) EXP_KDR_X_EXP_CBLB
+ -       0.0049 * (normalized) EXP_KDR_X_EXP_CBLC
+ +       0.0038 * (normalized) EXP_KDR_X_EXP_CDC42
+ +       0.0156 * (normalized) EXP_KDR_X_EXP_CDH5
+ -       0.0103 * (normalized) EXP_KDR_X_EXP_COL18A1
+ -       0.0038 * (normalized) EXP_KDR_X_EXP_CSF1
+ +       0.0079 * (normalized) EXP_KDR_X_EXP_CSF2
+ -       0.0025 * (normalized) EXP_KDR_X_EXP_DNM2
+ +       0.0034 * (normalized) EXP_KDR_X_EXP_EFNA1
+ -       0.0031 * (normalized) EXP_KDR_X_EXP_EFNA5
+ +       0.0088 * (normalized) EXP_KDR_X_EXP_EGF
+ -       0.0111 * (normalized) EXP_KDR_X_EXP_ELMO1
+ -       0.0114 * (normalized) EXP_KDR_X_EXP_EPN3
+ -       0.0024 * (normalized) EXP_KDR_X_EXP_EPS15
+ -       0.0044 * (normalized) EXP_KDR_X_EXP_ETS1
+ -       0.0006 * (normalized) EXP_KDR_X_EXP_FBXW11
+ -       0.0186 * (normalized) EXP_KDR_X_EXP_FGF10
+ +       0.0058 * (normalized) EXP_KDR_X_EXP_FGF14
+ -       0.0041 * (normalized) EXP_KDR_X_EXP_FGF16
+ -       0.0112 * (normalized) EXP_KDR_X_EXP_FGF18
+ -       0.0076 * (normalized) EXP_KDR_X_EXP_FGF19
+ -       0.0026 * (normalized) EXP_KDR_X_EXP_FGF20
+ -       0.0163 * (normalized) EXP_KDR_X_EXP_FGF21
+ -       0.0074 * (normalized) EXP_KDR_X_EXP_FGF22
+ +       0.0051 * (normalized) EXP_KDR_X_EXP_FGF3
+ -       0.0069 * (normalized) EXP_KDR_X_EXP_FGF7
+ +       0.004  * (normalized) EXP_KDR_X_EXP_GAB1
+ +       0.0015 * (normalized) EXP_KDR_X_EXP_GRB2
+ -       0.0115 * (normalized) EXP_KDR_X_EXP_HSP90AA1
+ +       0.0051 * (normalized) EXP_KDR_X_EXP_HSPG2
+ +       0.0034 * (normalized) EXP_KDR_X_EXP_IQGAP1
+ +       0.0088 * (normalized) EXP_KDR_X_EXP_IRS1
+ -       0.0014 * (normalized) EXP_KDR_X_EXP_ITGA1
+ -       0.0115 * (normalized) EXP_KDR_X_EXP_ITGAV
+ -       0.0117 * (normalized) EXP_KDR_X_EXP_ITGB1
+ -       0.0124 * (normalized) EXP_KDR_X_EXP_LRGUK
+ +       0.0023 * (normalized) EXP_KDR_X_EXP_MITF
+ -       0.0111 * (normalized) EXP_KDR_X_EXP_NCK2
+ +       0.0033 * (normalized) EXP_KDR_X_EXP_NEDD4L
+ -       0.0025 * (normalized) EXP_KDR_X_EXP_NOTCH1
+ +       0.0043 * (normalized) EXP_KDR_X_EXP_NRP1
+ -       0      * (normalized) EXP_KDR_X_EXP_NRP2
+ -       0.0068 * (normalized) EXP_KDR_X_EXP_PDGFD
+ +       0.0082 * (normalized) EXP_KDR_X_EXP_PGF
+ -       0.0134 * (normalized) EXP_KDR_X_EXP_PHLPP1
+ -       0.006  * (normalized) EXP_KDR_X_EXP_PIK3CA
+ -       0.0119 * (normalized) EXP_KDR_X_EXP_PIK3CD
+ +       0.0108 * (normalized) EXP_KDR_X_EXP_PIK3R5
+ +       0.0098 * (normalized) EXP_KDR_X_EXP_PLCB1
+ +       0.0074 * (normalized) EXP_KDR_X_EXP_PLCB2
+ +       0.7592
+
+
+
+Number of kernel evaluations: 29486366 (21.266% cached)
+
+Time taken to build model: 9.82 seconds
+
+Time taken to test model on training data: 0.21 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3054
+Mean absolute error                      1.61  
+Root mean squared error                  2.0639
+Relative absolute error                 94.5778 %
+Root relative squared error             95.7761 %
+Total Number of Instances             2421     
+
+Time taken to perform cross-validation: 36.28 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2766
+Mean absolute error                      1.6257
+Root mean squared error                  2.0833
+Relative absolute error                 95.4755 %
+Root relative squared error             96.642  %
+Total Number of Instances             2421     
+

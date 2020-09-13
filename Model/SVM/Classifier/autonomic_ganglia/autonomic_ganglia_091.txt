@@ -1,0 +1,101 @@
+
+Options: -C 10 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.01 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0443 * (normalized) Fingerprint_797
+ -       0.0326 * (normalized) Fingerprint_712
+ -       0.0291 * (normalized) Fingerprint_646
+ -       0.0341 * (normalized) Fingerprint_611
+ +       0.0112 * (normalized) SDOM_subdomainX_EXP
+ +       0.0123 * (normalized) DOM_Pkinase_CSV
+ -       0.0024 * (normalized) PWY_R_HSA_162582_EXP
+ +       0.001  * (normalized) PWY_R_HSA_212436_EXP
+ +       0.0138 * (normalized) SFAM_MAST_EXP
+ -       0.0059 * (normalized) FAM_CMGC
+ -       0.0177 * (normalized) FAM_CMGC_CSV
+ +       0.0049 * (normalized) FAM_CMGC_EXP
+ -       0.009  * (normalized) FAM_Other_EXP
+ +       0.0019 * (normalized) CLS_average_ploidy
+ -       0.0175 * (normalized) EXP_SCYL1
+ +       0.0186 * (normalized) EXP_TRPM6
+ +       0.0068 * (normalized) EXP_FGR
+ +       0.0005 * (normalized) EXP_NRK
+ +       0.0108 * (normalized) EXP_BLK_X_EXP_BCAR1
+ +       0.0027 * (normalized) EXP_BLK_X_EXP_CBL
+ +       0.0159 * (normalized) EXP_BLK_X_EXP_EGF
+ -       0.0193 * (normalized) EXP_FGR_X_EXP_CCL11
+ +       0.0253 * (normalized) EXP_FGR_X_EXP_CXCL8
+ -       0.0005 * (normalized) EXP_FGR_X_EXP_GNAI2
+ +       0.0083 * (normalized) EXP_FGR_X_EXP_PDGFB
+ +       0.0081 * (normalized) EXP_FGR_X_EXP_PIK3R5
+ -       0.0127 * (normalized) EXP_GRK7_X_EXP_ADRB1
+ -       0.0165 * (normalized) EXP_GRK7_X_EXP_CCR2
+ +       0.0067 * (normalized) EXP_HUNK_X_EXP_PHLPP1
+ -       0.0025 * (normalized) EXP_LRRK2_X_EXP_CTNNB1
+ +       0.0063 * (normalized) EXP_LRRK2_X_EXP_DVL1
+ -       0.0028 * (normalized) EXP_LRRK2_X_EXP_GNAI1
+ -       0.0003 * (normalized) EXP_LRRK2_X_EXP_GNAI3
+ +       0.0096 * (normalized) EXP_LRRK2_X_EXP_GNAT2
+ -       0.0021 * (normalized) EXP_LRRK2_X_EXP_HSPA4
+ +       0.0052 * (normalized) EXP_LRRK2_X_EXP_LRP5
+ +       0.007  * (normalized) EXP_LRRK2_X_EXP_MYO1D
+ -       0.0013 * (normalized) EXP_LRRK2_X_EXP_PNPLA6
+ +       0.0047 * (normalized) EXP_LRRK2_X_EXP_PPEF2
+ -       0.0111 * (normalized) EXP_LRRK2_X_EXP_RAB5A
+ -       0.0053 * (normalized) EXP_LRRK2_X_EXP_TUBA1A
+ +       0.0012 * (normalized) EXP_LRRK2_X_EXP_TUBB4A
+ +       0.0058 * (normalized) EXP_LRRK2_X_EXP_TUBB6
+ -       0.004  * (normalized) EXP_LRRK2_X_EXP_YWHAH
+ +       0.0171 * (normalized) EXP_MAP3K12_X_EXP_LARS
+ +       0.0138 * (normalized) EXP_MAP3K1_X_EXP_CASP3
+ +       0.0285 * (normalized) EXP_MAP3K1_X_EXP_TRAF1
+ +       0.0177 * (normalized) EXP_MAP3K1_X_EXP_TRAF2
+ +       0.0013 * (normalized) EXP_MAPK14_X_EXP_AGO3
+ -       0.0123 * (normalized) EXP_MAPK14_X_EXP_AGO4
+ +       0.009  * (normalized) EXP_MAPK14_X_EXP_BMI1
+ -       0.0188 * (normalized) EXP_MAPK14_X_EXP_CASP3
+ -       0.0069 * (normalized) EXP_MAPK14_X_EXP_CDON
+ -       0.0109 * (normalized) EXP_MAPK14_X_EXP_DUSP1
+ -       0.0027 * (normalized) EXP_MAPK14_X_EXP_EPOR
+ -       0.0004 * (normalized) EXP_MAPK14_X_EXP_FOSL1
+ -       0.0062 * (normalized) EXP_MAPK14_X_EXP_GNAI2
+ +       0.0029 * (normalized) EXP_MAPK14_X_EXP_GNG8
+ -       0.0163 * (normalized) EXP_MAPK14_X_EXP_HIST1H2BD
+ +       0.0032 * (normalized) EXP_MAPK14_X_EXP_NEFH
+ +       0.0017 * (normalized) EXP_MAPK14_X_EXP_NFKBIA
+ +       0.0105 * (normalized) PWY_R_HSA_109582_EXP_X_PWY_R_HSA_392499_EXP
+ +       0.6858
+
+
+
+Number of kernel evaluations: 477758884 (73.766% cached)
+
+Time taken to build model: 268.52 seconds
+
+Time taken to test model on training data: 0.23 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.2898
+Mean absolute error                      1.4571
+Root mean squared error                  1.921 
+Relative absolute error                 94.1824 %
+Root relative squared error             96.8675 %
+Total Number of Instances             2971     
+
+Time taken to perform cross-validation: 2015.44 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2597
+Mean absolute error                      1.4794
+Root mean squared error                  1.9395
+Relative absolute error                 95.5926 %
+Root relative squared error             97.7702 %
+Total Number of Instances             2971     
+

@@ -1,0 +1,75 @@
+
+Options: -C 1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.0001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.092  * (normalized) From_Sanger
+ -       0.1063 * (normalized) Fingerprint_830
+ +       0.0664 * (normalized) Fingerprint_826
+ -       0.0029 * (normalized) Fingerprint_822
+ -       0.0718 * (normalized) Fingerprint_821
+ +       0.042  * (normalized) Fingerprint_820
+ -       0.1409 * (normalized) Fingerprint_818
+ +       0.0099 * (normalized) Fingerprint_812
+ +       0.0071 * (normalized) Fingerprint_800
+ +       0.0365 * (normalized) Fingerprint_798
+ -       0.0395 * (normalized) Fingerprint_797
+ +       0.0384 * (normalized) Fingerprint_791
+ -       0.0034 * (normalized) Fingerprint_779
+ +       0.0394 * (normalized) Fingerprint_776
+ -       0.0598 * (normalized) Fingerprint_714
+ -       0.0125 * (normalized) Fingerprint_712
+ +       0.1088 * (normalized) Fingerprint_711
+ -       0.082  * (normalized) Fingerprint_707
+ +       0.0276 * (normalized) Fingerprint_704
+ -       0.0382 * (normalized) Fingerprint_702
+ +       0.003  * (normalized) Fingerprint_698
+ +       0.0375 * (normalized) Fingerprint_696
+ +       0.0723 * (normalized) Fingerprint_686
+ +       0.0444 * (normalized) Fingerprint_685
+ -       0.0277 * (normalized) Fingerprint_673
+ +       0.0329 * (normalized) Fingerprint_667
+ +       0.0163 * (normalized) Fingerprint_659
+ +       0.0079 * (normalized) Fingerprint_658
+ +       0.0912 * (normalized) Fingerprint_650
+ -       0.086  * (normalized) Fingerprint_647
+ -       0.0685 * (normalized) Fingerprint_644
+ -       0.0207 * (normalized) Fingerprint_643
+ +       0.1346 * (normalized) Fingerprint_635
+ -       0.0105 * (normalized) Fingerprint_617
+ -       0.0774 * (normalized) Fingerprint_611
+ +       0.0287 * (normalized) Fingerprint_576
+ +       0.763 
+
+
+
+Number of kernel evaluations: 2333234 (96.885% cached)
+
+Time taken to build model: 7.01 seconds
+
+Time taken to test model on training data: 0.13 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.4048
+Mean absolute error                      1.4273
+Root mean squared error                  1.8737
+Relative absolute error                 87.8803 %
+Root relative squared error             92.643  %
+Total Number of Instances             1431     
+
+Time taken to perform cross-validation: 34.03 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.3479
+Mean absolute error                      1.5009
+Root mean squared error                  1.9329
+Relative absolute error                 92.323  %
+Root relative squared error             95.4882 %
+Total Number of Instances             1431     
+

@@ -1,0 +1,180 @@
+
+Options: -C 10 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.01 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0449 * (normalized) From_Sanger
+ +       0.3241 * (normalized) Fingerprint_860
+ +       0.2913 * (normalized) Fingerprint_835
+ -       0.0504 * (normalized) Fingerprint_834
+ +       0.1631 * (normalized) Fingerprint_833
+ -       0.1384 * (normalized) Fingerprint_830
+ +       0.2021 * (normalized) Fingerprint_829
+ +       0.2506 * (normalized) Fingerprint_828
+ +       0.2372 * (normalized) Fingerprint_827
+ +       0.2121 * (normalized) Fingerprint_826
+ +       0.2474 * (normalized) Fingerprint_825
+ +       0.0613 * (normalized) Fingerprint_824
+ +       0.0955 * (normalized) Fingerprint_822
+ -       0.0113 * (normalized) Fingerprint_821
+ +       0.0631 * (normalized) Fingerprint_820
+ +       0.186  * (normalized) Fingerprint_819
+ -       0.0778 * (normalized) Fingerprint_818
+ -       0.0744 * (normalized) Fingerprint_813
+ +       0.0703 * (normalized) Fingerprint_812
+ +       0.1363 * (normalized) Fingerprint_809
+ +       0.0103 * (normalized) Fingerprint_806
+ +       0.2932 * (normalized) Fingerprint_804
+ +       0.0486 * (normalized) Fingerprint_803
+ +       0.1025 * (normalized) Fingerprint_801
+ -       0.0278 * (normalized) Fingerprint_800
+ +       0.071  * (normalized) Fingerprint_799
+ +       0.1078 * (normalized) Fingerprint_798
+ -       0.0288 * (normalized) Fingerprint_797
+ +       0.0519 * (normalized) Fingerprint_792
+ -       0.0125 * (normalized) Fingerprint_791
+ -       0.1851 * (normalized) Fingerprint_785
+ -       0.0213 * (normalized) Fingerprint_784
+ -       0.0131 * (normalized) Fingerprint_782
+ +       0.0527 * (normalized) Fingerprint_780
+ -       0.077  * (normalized) Fingerprint_779
+ +       0.0193 * (normalized) Fingerprint_778
+ +       0.0765 * (normalized) Fingerprint_776
+ -       0.0843 * (normalized) Fingerprint_714
+ +       0.2493 * (normalized) Fingerprint_710
+ -       0.1512 * (normalized) Fingerprint_709
+ -       0.0387 * (normalized) Fingerprint_707
+ +       0.2097 * (normalized) Fingerprint_705
+ -       0.0312 * (normalized) Fingerprint_704
+ -       0.1138 * (normalized) Fingerprint_702
+ -       0.0528 * (normalized) Fingerprint_698
+ +       0.1027 * (normalized) Fingerprint_697
+ -       0.0017 * (normalized) Fingerprint_696
+ +       0.0819 * (normalized) Fingerprint_694
+ +       0.2584 * (normalized) Fingerprint_687
+ -       0.0364 * (normalized) Fingerprint_686
+ +       0.0102 * (normalized) Fingerprint_685
+ -       0.0865 * (normalized) Fingerprint_679
+ -       0.1047 * (normalized) Fingerprint_677
+ +       0.0311 * (normalized) Fingerprint_676
+ +       0.0347 * (normalized) Fingerprint_674
+ +       0.0254 * (normalized) Fingerprint_673
+ +       0.0274 * (normalized) Fingerprint_672
+ +       0.029  * (normalized) Fingerprint_669
+ -       0.0696 * (normalized) Fingerprint_667
+ +       0.0045 * (normalized) Fingerprint_659
+ +       0.0195 * (normalized) Fingerprint_658
+ +       0.0436 * (normalized) Fingerprint_656
+ -       0.0103 * (normalized) Fingerprint_650
+ +       0.4814 * (normalized) Fingerprint_648
+ -       0.0925 * (normalized) Fingerprint_647
+ -       0.0639 * (normalized) Fingerprint_646
+ -       0.0357 * (normalized) Fingerprint_644
+ +       0.0048 * (normalized) Fingerprint_643
+ +       0.1313 * (normalized) Fingerprint_635
+ -       0.0872 * (normalized) Fingerprint_629
+ -       0.1549 * (normalized) Fingerprint_625
+ -       0.0475 * (normalized) Fingerprint_617
+ -       0.0695 * (normalized) Fingerprint_611
+ +       0.098  * (normalized) Fingerprint_588
+ +       0.057  * (normalized) Fingerprint_576
+ +       0.0029 * (normalized) Fingerprint_363
+ -       0.0373 * (normalized) PKA_105_ENG_X_Fingerprint_363
+ +       0.2743 * (normalized) PKA_113_ASA_X_Fingerprint_611
+ -       0.1808 * (normalized) PKA_113_HYD_X_Fingerprint_611
+ +       0.0183 * (normalized) PKA_121_B62_X_Fingerprint_696
+ +       0.0314 * (normalized) PKA_121_K_CSV_X_Fingerprint_710
+ +       0.1117 * (normalized) PKA_123_CSV_X_Fingerprint_576
+ +       0.0958 * (normalized) PKA_123_ENG_X_Fingerprint_576
+ -       0.0578 * (normalized) PKA_123_EXP_X_Fingerprint_576
+ -       0.1541 * (normalized) PKA_123_VOL_X_Fingerprint_576
+ +       0.0728 * (normalized) PKA_123_X_Fingerprint_576
+ +       0.1487 * (normalized) PKA_165_HYD_X_Fingerprint_818
+ -       0.1071 * (normalized) PKA_165_H_X_Fingerprint_818
+ -       0.0728 * (normalized) PKA_181_B62_X_Fingerprint_576
+ -       0.0559 * (normalized) PKA_190_ASA_X_Fingerprint_576
+ -       0.0236 * (normalized) PKA_190_ASA_X_Fingerprint_710
+ -       0.0445 * (normalized) PKA_190_HYD_X_Fingerprint_576
+ +       0.0385 * (normalized) PKA_197_HYD_X_Fingerprint_710
+ +       0.1434 * (normalized) PKA_197_M_CSV_X_Fingerprint_710
+ +       0.1434 * (normalized) PKA_197_M_EXP_X_Fingerprint_710
+ +       0.1434 * (normalized) PKA_197_M_X_Fingerprint_710
+ +       0.082  * (normalized) PKA_198_VOL_X_Fingerprint_617
+ +       0.0735 * (normalized) PKA_200_CSV_X_Fingerprint_644
+ -       0.137  * (normalized) PKA_200_X_Fingerprint_644
+ -       0.012  * (normalized) PKA_201_B62_X_Fingerprint_363
+ -       0.0198 * (normalized) PKA_201_CSV_X_Fingerprint_800
+ -       0.017  * (normalized) PKA_201_ENG_X_Fingerprint_363
+ +       0.0559 * (normalized) PKA_201_ENG_X_Fingerprint_818
+ -       0.0278 * (normalized) PKA_201_VOL_X_Fingerprint_363
+ -       0.018  * (normalized) PKA_201_VOL_X_Fingerprint_818
+ -       0.2617 * (normalized) PKA_226_HYD_X_Fingerprint_818
+ +       0.1132 * (normalized) PKA_234_B62_X_Fingerprint_696
+ +       0.0565 * (normalized) PKA_234_B62_X_Fingerprint_697
+ +       0.0265 * (normalized) PKA_249_ASA_X_Fingerprint_363
+ -       0.0125 * (normalized) PKA_249_CHA_X_Fingerprint_363
+ +       0.0052 * (normalized) PKA_251_X_Fingerprint_800
+ +       0.1121 * (normalized) PKA_262_ENG_X_Fingerprint_696
+ +       0.2642 * (normalized) PKA_264_CSV_X_Fingerprint_797
+ +       0.0332 * (normalized) PKA_264_EXP_X_Fingerprint_797
+ +       0.1434 * (normalized) PKA_264_K_CSV_X_Fingerprint_710
+ +       0.1434 * (normalized) PKA_264_K_EXP_X_Fingerprint_710
+ -       0.3382 * (normalized) PKA_264_X_Fingerprint_797
+ -       0.0306 * (normalized) PKA_266_ASA_X_Fingerprint_800
+ +       0.0644 * (normalized) PKA_279_VOL_X_Fingerprint_776
+ -       0.0894 * (normalized) PKA_280_VOL_X_Fingerprint_363
+ -       0.0104 * (normalized) PKA_281_B62_X_Fingerprint_576
+ +       0.007  * (normalized) PKA_281_HYD_X_Fingerprint_576
+ +       0.1713 * (normalized) PKA_283_B62_X_Fingerprint_696
+ +       0.0654 * (normalized) PKA_283_B62_X_Fingerprint_697
+ -       0.3306 * (normalized) PKA_291_EXP_X_Fingerprint_644
+ +       0.2201 * (normalized) PKA_291_X_Fingerprint_644
+ -       0.0818 * (normalized) PKA_294_VOL_X_Fingerprint_611
+ +       0.899  * (normalized) PKA_66_ENG_X_Fingerprint_710
+ +       0.1434 * (normalized) PKA_66_R_CSV_X_Fingerprint_710
+ +       0.1434 * (normalized) PKA_66_R_EXP_X_Fingerprint_710
+ -       0.5717 * (normalized) PKA_66_VOL_X_Fingerprint_710
+ +       0.0462 * (normalized) PKA_92_B62_X_Fingerprint_698
+ +       0.1434 * (normalized) PKA_92_V_CSV_X_Fingerprint_710
+ +       0.1434 * (normalized) PKA_92_V_EXP_X_Fingerprint_710
+ -       0.0493 * (normalized) PKA_96_ASA_X_Fingerprint_818
+ -       0.1936 * (normalized) PKA_96_CSV_X_Fingerprint_818
+ -       0.1995 * (normalized) PKA_96_EXP_X_Fingerprint_818
+ +       0.2591 * (normalized) PKA_96_X_Fingerprint_818
+ +       0.4593 * (normalized) PKA_97_B62_X_Fingerprint_800
+ +       0.3648 * (normalized) PKA_97_VOL_X_Fingerprint_800
+ +       0.0642 * (normalized) PKA_98_HYD_X_Fingerprint_644
+ -       0.4718
+
+
+
+Number of kernel evaluations: -325818570
+
+Time taken to build model: 2133.89 seconds
+
+Time taken to test model on training data: 0.25 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.6511
+Mean absolute error                      1.2159
+Root mean squared error                  1.6264
+Relative absolute error                 72.3508 %
+Root relative squared error             76.076  %
+Total Number of Instances             4628     
+
+Time taken to perform cross-validation: 18072.19 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.6258
+Mean absolute error                      1.2681
+Root mean squared error                  1.6741
+Relative absolute error                 75.4394 %
+Root relative squared error             78.2888 %
+Total Number of Instances             4628     
+

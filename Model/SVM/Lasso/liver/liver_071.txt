@@ -1,0 +1,87 @@
+
+Options: -C 1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.1 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0906 * (normalized) From_Sanger
+ -       0.0175 * (normalized) Fingerprint_834
+ -       0.0936 * (normalized) Fingerprint_830
+ +       0.0853 * (normalized) Fingerprint_826
+ +       0.0415 * (normalized) Fingerprint_822
+ -       0.0188 * (normalized) Fingerprint_821
+ +       0.0471 * (normalized) Fingerprint_820
+ +       0.0656 * (normalized) Fingerprint_819
+ -       0.0592 * (normalized) Fingerprint_818
+ -       0.0489 * (normalized) Fingerprint_813
+ -       0.1608 * (normalized) Fingerprint_797
+ -       0.0443 * (normalized) Fingerprint_791
+ +       0.0224 * (normalized) Fingerprint_776
+ -       0.0661 * (normalized) Fingerprint_714
+ -       0.0082 * (normalized) Fingerprint_712
+ +       0.1086 * (normalized) Fingerprint_710
+ -       0.0786 * (normalized) Fingerprint_709
+ -       0.0233 * (normalized) Fingerprint_698
+ +       0.0712 * (normalized) Fingerprint_697
+ -       0.0084 * (normalized) Fingerprint_686
+ +       0.0105 * (normalized) Fingerprint_685
+ -       0.0621 * (normalized) Fingerprint_677
+ -       0.0267 * (normalized) Fingerprint_674
+ -       0.0462 * (normalized) Fingerprint_673
+ -       0.0026 * (normalized) Fingerprint_672
+ +       0.1117 * (normalized) Fingerprint_667
+ +       0.0372 * (normalized) Fingerprint_659
+ +       0.0247 * (normalized) Fingerprint_658
+ -       0.0401 * (normalized) Fingerprint_646
+ -       0.0559 * (normalized) Fingerprint_644
+ +       0.0579 * (normalized) Fingerprint_635
+ -       0.0769 * (normalized) Fingerprint_629
+ -       0.0939 * (normalized) Fingerprint_617
+ -       0.0472 * (normalized) Fingerprint_611
+ +       0.0222 * (normalized) Fingerprint_363
+ -       0.0159 * (normalized) GO_0000278
+ +       0.0129 * (normalized) GO_0016477
+ +       0.0495 * (normalized) SFAM_RIPK
+ +       0.0072 * (normalized) FAM_TKL_CSV
+ -       0.0913 * (normalized) PKA_172_ASA_X_Fingerprint_644
+ +       0.0851 * (normalized) PKA_280_CSV_X_Fingerprint_644
+ +       0.0522 * (normalized) EXP_COQ8A_X_EXP_PDSS1
+ +       0.0035 * (normalized) EXP_PRKAA2_X_EXP_TP53
+ -       0.0067 * (normalized) EXP_SRC_X_EXP_ARRB2
+ -       0.0203 * (normalized) EXP_SRC_X_EXP_CASP8
+ +       0.0117 * (normalized) EXP_SRC_X_EXP_FN1
+ +       0.0036 * (normalized) EXP_STK11_X_EXP_ATIC
+ +       0.0274 * (normalized) GO_0032212_X_GO_0043066
+ +       0.8   
+
+
+
+Number of kernel evaluations: 1180644 (97.677% cached)
+
+Time taken to build model: 6.11 seconds
+
+Time taken to test model on training data: 0.17 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.6064
+Mean absolute error                      1.3172
+Root mean squared error                  1.6714
+Relative absolute error                 78.0147 %
+Root relative squared error             79.5799 %
+Total Number of Instances             1348     
+
+Time taken to perform cross-validation: 32.35 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.5683
+Mean absolute error                      1.3551
+Root mean squared error                  1.732 
+Relative absolute error                 80.1842 %
+Root relative squared error             82.3852 %
+Total Number of Instances             1348     
+

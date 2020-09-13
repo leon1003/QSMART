@@ -1,0 +1,87 @@
+
+Options: -C 10 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.01 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.0041 * (normalized) DOM_Pkinase
+ +       0.0052 * (normalized) DOM_Pkinase_CSV
+ -       0.0026 * (normalized) DOM_Pkinase_EXP
+ +       0.0052 * (normalized) PWY_R_HSA_1266738_EXP
+ +       0.0096 * (normalized) PWY_R_HSA_162582_EXP
+ +       0.0055 * (normalized) GO_0006468_CSV
+ -       0.0239 * (normalized) GO_0006468_EXP
+ +       0.0214 * (normalized) GO_0046777_EXP
+ +       0.0173 * (normalized) SFAM_RIPK
+ -       0.0006 * (normalized) SFAM_RIPK_EXP
+ +       0.0271 * (normalized) FAM_STE_EXP
+ +       0.0383 * (normalized) FAM_TKL_CSV
+ +       0.0011 * (normalized) FAM_TKL_EXP
+ +       0.0002 * (normalized) FAM_TK_EXP
+ -       0.0065 * (normalized) CLS_average_ploidy
+ +       0.0116 * (normalized) EXP_PKN1
+ -       0.0035 * (normalized) EXP_SRC
+ +       0.0065 * (normalized) EXP_STK11
+ +       0.0361 * (normalized) EXP_MINK1
+ +       0.0115 * (normalized) EXP_CDK12
+ -       0.0199 * (normalized) EXP_PBK
+ +       0.0238 * (normalized) EXP_PRKAA2
+ +       0.0052 * (normalized) EXP_TLK1
+ +       0.0168 * (normalized) EXP_COQ8A
+ +       0.0171 * (normalized) EXP_CSK
+ -       0.008  * (normalized) EXP_PRKX
+ +       0.0044 * (normalized) EXP_STK39
+ +       0.002  * (normalized) EXP_CDK12_X_EXP_AKAP4
+ -       0.0001 * (normalized) EXP_CDK12_X_EXP_ATG13
+ -       0.0034 * (normalized) EXP_CDK12_X_EXP_BCCIP
+ -       0.0158 * (normalized) EXP_CDK12_X_EXP_BRCA1
+ -       0.005  * (normalized) EXP_CDK12_X_EXP_CCNC
+ -       0.0043 * (normalized) EXP_CDK12_X_EXP_CCND1
+ -       0.0148 * (normalized) EXP_CDK12_X_EXP_CCND2
+ -       0.0096 * (normalized) EXP_CDK12_X_EXP_CCND3
+ +       0.0192 * (normalized) EXP_CDK12_X_EXP_CCNH
+ -       0.0072 * (normalized) EXP_CDK12_X_EXP_CCNK
+ -       0.0017 * (normalized) EXP_CDK12_X_EXP_CCNL1
+ -       0.0045 * (normalized) EXP_CDK12_X_EXP_CCNT1
+ +       0.0041 * (normalized) EXP_CDK12_X_EXP_CCNT2
+ +       0.0001 * (normalized) EXP_CDK12_X_EXP_CCNY
+ -       0.0045 * (normalized) EXP_CDK12_X_EXP_ELOA
+ -       0.0088 * (normalized) EXP_CDK12_X_EXP_ELOA2
+ +       0.0147 * (normalized) EXP_CDK12_X_EXP_ELOB
+ +       0.0004 * (normalized) EXP_CDK12_X_EXP_ELOC
+ -       0.0058 * (normalized) EXP_CDK12_X_EXP_FANCD2
+ -       0.0009 * (normalized) EXP_CDK12_X_EXP_GTF2H3
+ -       0.0032 * (normalized) EXP_CDK12_X_EXP_NELFB
+ +       0.627 
+
+
+
+Number of kernel evaluations: 2758692 (99.138% cached)
+
+Time taken to build model: 22.18 seconds
+
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.2888
+Mean absolute error                      1.5946
+Root mean squared error                  2.0349
+Relative absolute error                 94.4438 %
+Root relative squared error             96.8867 %
+Total Number of Instances             1348     
+
+Time taken to perform cross-validation: 165.36 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2569
+Mean absolute error                      1.6217
+Root mean squared error                  2.0574
+Relative absolute error                 95.9547 %
+Root relative squared error             97.864  %
+Total Number of Instances             1348     
+

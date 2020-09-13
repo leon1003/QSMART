@@ -1,0 +1,102 @@
+
+Options: -C 0.1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0665 * (normalized) From_Sanger
+ -       0.105  * (normalized) Fingerprint_834
+ +       0.0382 * (normalized) Fingerprint_833
+ -       0.1333 * (normalized) Fingerprint_830
+ +       0.1132 * (normalized) Fingerprint_826
+ +       0.0217 * (normalized) Fingerprint_825
+ -       0.0107 * (normalized) Fingerprint_824
+ -       0.027  * (normalized) Fingerprint_822
+ -       0.005  * (normalized) Fingerprint_821
+ +       0.0723 * (normalized) Fingerprint_820
+ -       0.1062 * (normalized) Fingerprint_818
+ -       0.1602 * (normalized) Fingerprint_813
+ -       0.0162 * (normalized) Fingerprint_812
+ -       0.0024 * (normalized) Fingerprint_809
+ -       0.0289 * (normalized) Fingerprint_803
+ +       0.2027 * (normalized) Fingerprint_801
+ +       0.077  * (normalized) Fingerprint_799
+ +       0.0271 * (normalized) Fingerprint_798
+ -       0.0653 * (normalized) Fingerprint_797
+ -       0.0261 * (normalized) Fingerprint_791
+ +       0.0144 * (normalized) Fingerprint_784
+ -       0.032  * (normalized) Fingerprint_779
+ +       0.04   * (normalized) Fingerprint_776
+ -       0.0382 * (normalized) Fingerprint_714
+ -       0.0528 * (normalized) Fingerprint_712
+ +       0.1101 * (normalized) Fingerprint_711
+ +       0.0947 * (normalized) Fingerprint_710
+ -       0.1026 * (normalized) Fingerprint_707
+ +       0.1585 * (normalized) Fingerprint_705
+ +       0.0109 * (normalized) Fingerprint_704
+ -       0.0399 * (normalized) Fingerprint_702
+ +       0.0723 * (normalized) Fingerprint_697
+ -       0.0057 * (normalized) Fingerprint_696
+ -       0.0519 * (normalized) Fingerprint_694
+ +       0.059  * (normalized) Fingerprint_686
+ -       0.0186 * (normalized) Fingerprint_685
+ +       0.057  * (normalized) Fingerprint_679
+ -       0.1191 * (normalized) Fingerprint_677
+ -       0.0238 * (normalized) Fingerprint_676
+ -       0.0444 * (normalized) Fingerprint_674
+ -       0.022  * (normalized) Fingerprint_673
+ -       0.0091 * (normalized) Fingerprint_672
+ +       0.0488 * (normalized) Fingerprint_669
+ +       0.0524 * (normalized) Fingerprint_667
+ +       0.0675 * (normalized) Fingerprint_659
+ +       0.0088 * (normalized) Fingerprint_658
+ -       0.0066 * (normalized) Fingerprint_656
+ +       0.1702 * (normalized) Fingerprint_650
+ -       0.0682 * (normalized) Fingerprint_647
+ -       0.0676 * (normalized) Fingerprint_646
+ -       0.064  * (normalized) Fingerprint_644
+ +       0.0219 * (normalized) Fingerprint_643
+ +       0.0702 * (normalized) Fingerprint_635
+ -       0.1106 * (normalized) Fingerprint_629
+ -       0.1103 * (normalized) Fingerprint_625
+ -       0.0793 * (normalized) Fingerprint_617
+ -       0.0741 * (normalized) Fingerprint_611
+ +       0.0072 * (normalized) Fingerprint_588
+ +       0.0324 * (normalized) Fingerprint_576
+ +       0.0064 * (normalized) Fingerprint_363
+ +       0.0447 * (normalized) PKA_263_CSV_X_Fingerprint_826
+ +       0.0236 * (normalized) PKA_263_EXP_X_Fingerprint_826
+ -       0.0104 * (normalized) PKA_263_X_Fingerprint_826
+ +       0.7126
+
+
+
+Number of kernel evaluations: 37419734 (38.033% cached)
+
+Time taken to build model: 11.47 seconds
+
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.4892
+Mean absolute error                      1.4278
+Root mean squared error                  1.955 
+Relative absolute error                 80.6487 %
+Root relative squared error             87.9055 %
+Total Number of Instances             1938     
+
+Time taken to perform cross-validation: 34.79 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.4415
+Mean absolute error                      1.5012
+Root mean squared error                  2.0221
+Relative absolute error                 84.7808 %
+Root relative squared error             90.9084 %
+Total Number of Instances             1938     
+
