@@ -1,8 +1,0 @@
-library(glmnet)
-mydata = read.table('/Data/Training/Random10X/upper_aerodigestive_tract.csv',head=T,sep=",")
-x = as.matrix(mydata[,4:ncol(mydata)])
-y = as.matrix(mydata[,1])
-lasso = cv.glmnet(x,y,nfolds=10,type.measure="mse",alpha=1,family="gaussian")
-sink('/Data/Model/Random10X_Lasso/upper_aerodigestive_tract.txt',append=TRUE)
-print(lasso)
-sink()
