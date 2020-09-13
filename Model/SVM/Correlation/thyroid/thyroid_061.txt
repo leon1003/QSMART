@@ -1,0 +1,72 @@
+
+Options: -C 1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.0045 * (normalized) MUT_EGFR
+ +       0.0036 * (normalized) GO_0014065_CSV
+ +       0.0034 * (normalized) GO_0030216_EXP
+ -       0.0024 * (normalized) GO_0034976
+ +       0.0042 * (normalized) GO_0043524_CSV
+ +       0.0052 * (normalized) GO_0045765_EXP
+ +       0.0048 * (normalized) GO_0050728_EXP
+ -       0.0018 * (normalized) GO_0060041_EXP
+ -       0.0175 * (normalized) EXP_STK10
+ -       0.0595 * (normalized) EXP_PLK3
+ -       0.0104 * (normalized) EXP_CDKL5
+ -       0.0453 * (normalized) EXP_PRKCG
+ -       0.0287 * (normalized) EXP_SGK2
+ +       0.0429 * (normalized) EXP_SLK
+ +       0.0021 * (normalized) EXP_PLK3_X_EXP_CDC14B
+ -       0.0099 * (normalized) EXP_PLK3_X_EXP_CDC27
+ +       0.0229 * (normalized) EXP_PLK3_X_EXP_RAD21
+ -       0.0092 * (normalized) EXP_PLK3_X_EXP_YWHAH
+ +       0.0053 * (normalized) EXP_PRKCG_X_EXP_GNG8
+ -       0.0156 * (normalized) EXP_SGK2_X_EXP_UBC
+ +       0.0045 * (normalized) REC_R_HSA_1250195_X_REC_R_HSA_3928578
+ +       0.0004 * (normalized) REC_R_HSA_3928578_EXP_X_REC_R_HSA_5218819_EXP
+ -       0.0008 * (normalized) REC_R_HSA_3928578_EXP_X_REC_R_HSA_5672965_EXP
+ +       0.0048 * (normalized) REC_R_HSA_3928578_EXP_X_REC_R_HSA_8857565_EXP
+ +       0.0048 * (normalized) REC_R_HSA_3928578_EXP_X_REC_R_HSA_8857925_EXP
+ +       0.0022 * (normalized) REC_R_HSA_3928578_X_REC_R_HSA_5672965
+ +       0.001  * (normalized) PWY_R_HSA_199991_EXP_X_PWY_R_HSA_2682334_EXP
+ -       0.0001 * (normalized) PWY_R_HSA_199991_X_PWY_R_HSA_2682334
+ +       0.0256 * (normalized) PWY_R_HSA_2682334_EXP_X_PWY_R_HSA_416476_EXP
+ +       0.0117 * (normalized) PWY_R_HSA_2682334_X_PWY_R_HSA_416476
+ -       0.0008 * (normalized) GO_0001755_EXP_X_GO_0048010_EXP
+ +       0      * (normalized) GO_0001755_EXP_X_GO_0051301_EXP
+ +       0.001  * (normalized) GO_0016525_EXP_X_GO_0045893_EXP
+ +       0.7149
+
+
+
+Number of kernel evaluations: 1425430 (95.708% cached)
+
+Time taken to build model: 3.1 seconds
+
+Time taken to test model on training data: 0.11 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3149
+Mean absolute error                      1.7357
+Root mean squared error                  2.2347
+Relative absolute error                 94.0569 %
+Root relative squared error             95.9761 %
+Total Number of Instances             1352     
+
+Time taken to perform cross-validation: 12.6 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2859
+Mean absolute error                      1.7622
+Root mean squared error                  2.2549
+Relative absolute error                 95.4682 %
+Root relative squared error             96.8063 %
+Total Number of Instances             1352     
+

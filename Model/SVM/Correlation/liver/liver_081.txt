@@ -1,0 +1,87 @@
+
+Options: -C 10 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.0001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.1022 * (normalized) Fingerprint_797
+ -       0.0171 * (normalized) SFAM_RIPK
+ -       0.0331 * (normalized) SFAM_RIPK_EXP
+ +       0.0028 * (normalized) FAM_STE
+ +       0.0028 * (normalized) FAM_STE_EXP
+ +       0.0443 * (normalized) FAM_TKL_CSV
+ +       0.0336 * (normalized) EXP_PKN1
+ -       0.0328 * (normalized) EXP_CDK12_X_EXP_POLR2E
+ +       0.0028 * (normalized) EXP_CDK12_X_EXP_TP53
+ +       0.0079 * (normalized) EXP_COQ8A_X_EXP_COQ4
+ -       0.0024 * (normalized) EXP_COQ8A_X_EXP_COQ9
+ +       0.0096 * (normalized) EXP_COQ8A_X_EXP_PDSS1
+ +       0.0009 * (normalized) EXP_PKN1_X_EXP_HIST1H2BL
+ +       0.0047 * (normalized) EXP_PKN1_X_EXP_RHOB
+ +       0.0164 * (normalized) EXP_PRKAA2_X_EXP_AKT1S1
+ +       0.0144 * (normalized) EXP_PRKAA2_X_EXP_PFKFB1
+ +       0.0285 * (normalized) EXP_PRKAA2_X_EXP_TP53
+ -       0.0017 * (normalized) EXP_SRC_X_EXP_ACACB
+ -       0.0152 * (normalized) EXP_SRC_X_EXP_AGT
+ -       0.0137 * (normalized) EXP_SRC_X_EXP_ARHGAP35
+ -       0.0005 * (normalized) EXP_SRC_X_EXP_ARRB2
+ +       0.0386 * (normalized) EXP_SRC_X_EXP_CASP8
+ +       0.0147 * (normalized) EXP_SRC_X_EXP_CRK
+ -       0.013  * (normalized) EXP_SRC_X_EXP_CTNNB1
+ +       0.0161 * (normalized) EXP_SRC_X_EXP_GAPDH
+ +       0.0052 * (normalized) EXP_SRC_X_EXP_GNAI3
+ +       0.015  * (normalized) EXP_SRC_X_EXP_ITGAE
+ -       0.001  * (normalized) EXP_SRC_X_EXP_ITGAM
+ +       0.0078 * (normalized) EXP_SRC_X_EXP_NCK2
+ +       0.0037 * (normalized) EXP_SRC_X_EXP_NRAS
+ +       0.0116 * (normalized) EXP_SRC_X_EXP_NRG4
+ +       0.0286 * (normalized) EXP_SRC_X_EXP_NTN1
+ +       0.0037 * (normalized) EXP_SRC_X_EXP_PGR
+ -       0.0026 * (normalized) EXP_SRC_X_EXP_PTPN23
+ +       0.0004 * (normalized) EXP_SRC_X_EXP_RALA
+ -       0.0174 * (normalized) EXP_SRC_X_EXP_RB1
+ -       0.0225 * (normalized) EXP_SRC_X_EXP_SH3GL1
+ -       0.0042 * (normalized) EXP_SRC_X_EXP_TNFRSF11A
+ +       0.0139 * (normalized) EXP_SRC_X_EXP_TP53
+ -       0.0057 * (normalized) EXP_STK11_X_EXP_ATIC
+ +       0.0222 * (normalized) EXP_STK11_X_EXP_MYC
+ +       0.0128 * (normalized) EXP_STK11_X_EXP_PRKAA2
+ +       0.0228 * (normalized) EXP_STK11_X_EXP_TP53
+ -       0.0254 * (normalized) GO_0007254_X_GO_0043066
+ +       0.0088 * (normalized) GO_0010468_EXP_X_GO_0043066_EXP
+ +       0.0135 * (normalized) GO_0010468_X_GO_0043066
+ +       0.0046 * (normalized) GO_0032212_EXP_X_GO_0043066_EXP
+ +       0.0281 * (normalized) GO_0032212_X_GO_0043066
+ +       0.5976
+
+
+
+Number of kernel evaluations: 2674825 (99.174% cached)
+
+Time taken to build model: 17.29 seconds
+
+Time taken to test model on training data: 0.11 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3661
+Mean absolute error                      1.5533
+Root mean squared error                  1.9682
+Relative absolute error                 91.9941 %
+Root relative squared error             93.7084 %
+Total Number of Instances             1348     
+
+Time taken to perform cross-validation: 121.83 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.3406
+Mean absolute error                      1.5801
+Root mean squared error                  1.992 
+Relative absolute error                 93.4948 %
+Root relative squared error             94.7513 %
+Total Number of Instances             1348     
+

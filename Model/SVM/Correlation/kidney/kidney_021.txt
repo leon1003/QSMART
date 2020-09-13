@@ -1,0 +1,112 @@
+
+Options: -C 0.01 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.1 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0937 * (normalized) Fingerprint_797
+ +       0.0085 * (normalized) CLS_NCI_code_C9384
+ +       0.0006 * (normalized) EXP_EIF2AK3
+ +       0.0166 * (normalized) EXP_SRMS
+ +       0.0097 * (normalized) EXP_SGK1
+ +       0.0159 * (normalized) EXP_MAP3K20
+ -       0.0001 * (normalized) EXP_BLK_X_EXP_GPC1
+ -       0.0089 * (normalized) EXP_BLK_X_EXP_LRGUK
+ -       0.0246 * (normalized) EXP_BLK_X_EXP_SLA
+ +       0.0102 * (normalized) EXP_EGFR_X_EXP_AGFG1
+ +       0.0033 * (normalized) EXP_EGFR_X_EXP_ANGPT1
+ +       0.0025 * (normalized) EXP_EGFR_X_EXP_ANGPT2
+ -       0.0018 * (normalized) EXP_EGFR_X_EXP_ANGPT4
+ +       0.0081 * (normalized) EXP_EGFR_X_EXP_ARPC5
+ -       0.0031 * (normalized) EXP_EGFR_X_EXP_BECN1
+ -       0.0125 * (normalized) EXP_EGFR_X_EXP_BLK
+ +       0.0002 * (normalized) EXP_EGFR_X_EXP_CAV2
+ +       0.0025 * (normalized) EXP_EGFR_X_EXP_CTGF
+ +       0.0183 * (normalized) EXP_EGFR_X_EXP_ERBIN
+ +       0.0114 * (normalized) EXP_EGFR_X_EXP_FCHO2
+ +       0.008  * (normalized) EXP_EGFR_X_EXP_FGF10
+ +       0.0099 * (normalized) EXP_EGFR_X_EXP_FGF3
+ +       0.0149 * (normalized) EXP_EGFR_X_EXP_FGF6
+ -       0.0073 * (normalized) EXP_EGFR_X_EXP_GRAP
+ +       0.0047 * (normalized) EXP_EGFR_X_EXP_HGF
+ +       0.0017 * (normalized) EXP_EGFR_X_EXP_IGF1
+ -       0.0065 * (normalized) EXP_EGFR_X_EXP_IQSEC1
+ -       0.0132 * (normalized) EXP_EGFR_X_EXP_LPAR3
+ +       0.0006 * (normalized) EXP_EGFR_X_EXP_NEDD4
+ -       0.0145 * (normalized) EXP_EGFR_X_EXP_PDGFB
+ +       0.0181 * (normalized) EXP_EGFR_X_EXP_PIK3CA
+ +       0.0099 * (normalized) EXP_EGFR_X_EXP_PIK3R3
+ +       0.0089 * (normalized) EXP_EGFR_X_EXP_REPS2
+ +       0.0077 * (normalized) EXP_EGFR_X_EXP_SDC3
+ +       0.0075 * (normalized) EXP_EGFR_X_EXP_SNAI2
+ +       0.0006 * (normalized) EXP_EGFR_X_EXP_SOS1
+ -       0.0195 * (normalized) EXP_EGFR_X_EXP_STAT3
+ -       0.0306 * (normalized) EXP_EGFR_X_EXP_STAT5A
+ -       0.0042 * (normalized) EXP_EGFR_X_EXP_SYNJ1
+ -       0.0054 * (normalized) EXP_EGFR_X_EXP_SYT8
+ +       0.0068 * (normalized) EXP_EGFR_X_EXP_TGOLN2
+ -       0.0099 * (normalized) EXP_EIF2AK3_X_EXP_EIF2S3
+ +       0.007  * (normalized) EXP_EIF2AK3_X_EXP_JUN
+ +       0.0069 * (normalized) EXP_EIF2AK3_X_EXP_NFE2L2
+ +       0.0168 * (normalized) EXP_EIF2AK3_X_EXP_PIK3CA
+ +       0.0116 * (normalized) EXP_EIF2AK3_X_EXP_PPP1CC
+ -       0.0113 * (normalized) EXP_EIF2AK3_X_EXP_PPP1R15A
+ -       0.0171 * (normalized) EXP_FLT1_X_EXP_FGF7
+ +       0.011  * (normalized) EXP_FLT1_X_EXP_GPC1
+ +       0.0124 * (normalized) EXP_FLT1_X_EXP_LRGUK
+ +       0.0516 * (normalized) EXP_ICK_X_EXP_C1orf56
+ +       0.0233 * (normalized) EXP_MAP3K20_X_EXP_LRGUK
+ -       0.004  * (normalized) EXP_PRKG1_X_EXP_ATP1A2
+ +       0.0076 * (normalized) EXP_PRKG1_X_EXP_KCNMB1
+ +       0.0037 * (normalized) EXP_SGK1_X_EXP_NEDD4
+ -       0.0084 * (normalized) EXP_SGK1_X_EXP_NR3C1
+ +       0.0144 * (normalized) EXP_SGK1_X_EXP_PIKFYVE
+ +       0.0089 * (normalized) EXP_SGK1_X_EXP_RPTOR
+ -       0.0054 * (normalized) EXP_SGK1_X_EXP_SCNN1G
+ -       0.0115 * (normalized) EXP_SGK1_X_EXP_TSC22D3
+ +       0.0263 * (normalized) EXP_SRMS_X_EXP_LRGUK
+ +       0.0122 * (normalized) EXP_TGFBR1_X_EXP_BMP7
+ +       0.0257 * (normalized) EXP_TGFBR1_X_EXP_CAV1
+ -       0.0061 * (normalized) EXP_TRIM33_X_EXP_UBA52
+ -       0.0005 * (normalized) EXP_TRIM33_X_EXP_UBC
+ -       0.0104 * (normalized) EXP_TRIO_X_EXP_GNG3
+ +       0.0032 * (normalized) EXP_TRIO_X_EXP_GNG7
+ +       0.0118 * (normalized) EXP_TRIO_X_EXP_OPN4
+ -       0.0045 * (normalized) EXP_TRIO_X_EXP_P2RY6
+ +       0.0423 * (normalized) EXP_TRIO_X_EXP_RAC3
+ +       0.0088 * (normalized) EXP_TRIO_X_EXP_TBXA2R
+ -       0.0213 * (normalized) EXP_YES1_X_EXP_NRG2
+ +       0.0211 * (normalized) GO_0016032_X_GO_0042127
+ +       0.5581
+
+
+
+Number of kernel evaluations: 24796719 (21.376% cached)
+
+Time taken to build model: 6.85 seconds
+
+Time taken to test model on training data: 0.2 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3799
+Mean absolute error                      1.6115
+Root mean squared error                  2.0224
+Relative absolute error                 92.6767 %
+Root relative squared error             92.7758 %
+Total Number of Instances             2458     
+
+Time taken to perform cross-validation: 30.72 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.3644
+Mean absolute error                      1.6227
+Root mean squared error                  2.0359
+Relative absolute error                 93.2634 %
+Root relative squared error             93.336  %
+Total Number of Instances             2458     
+

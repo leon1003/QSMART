@@ -1,0 +1,101 @@
+
+Options: -C 10 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 1e-05 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0434 * (normalized) From_Sanger
+ -       0.0713 * (normalized) Fingerprint_834
+ -       0.104  * (normalized) Fingerprint_830
+ +       0.2445 * (normalized) Fingerprint_827
+ +       0.0187 * (normalized) Fingerprint_826
+ -       0.0001 * (normalized) Fingerprint_825
+ -       0.0158 * (normalized) Fingerprint_824
+ +       0.0217 * (normalized) Fingerprint_822
+ -       0.0255 * (normalized) Fingerprint_821
+ +       0.1095 * (normalized) Fingerprint_820
+ +       0.1158 * (normalized) Fingerprint_819
+ -       0.0115 * (normalized) Fingerprint_818
+ -       0.1973 * (normalized) Fingerprint_813
+ +       0.034  * (normalized) Fingerprint_812
+ -       0.0721 * (normalized) Fingerprint_809
+ -       0.0653 * (normalized) Fingerprint_806
+ +       0.0298 * (normalized) Fingerprint_803
+ +       0.0671 * (normalized) Fingerprint_801
+ +       0.0296 * (normalized) Fingerprint_800
+ +       0.0329 * (normalized) Fingerprint_799
+ -       0.0388 * (normalized) Fingerprint_798
+ -       0.1385 * (normalized) Fingerprint_797
+ -       0.1454 * (normalized) Fingerprint_792
+ -       0.0635 * (normalized) Fingerprint_785
+ +       0.0158 * (normalized) Fingerprint_784
+ +       0.0593 * (normalized) Fingerprint_780
+ -       0.0307 * (normalized) Fingerprint_779
+ -       0.001  * (normalized) Fingerprint_776
+ -       0.0032 * (normalized) Fingerprint_714
+ -       0.0725 * (normalized) Fingerprint_712
+ +       0.0655 * (normalized) Fingerprint_711
+ +       0.1276 * (normalized) Fingerprint_710
+ -       0.0806 * (normalized) Fingerprint_709
+ -       0.0378 * (normalized) Fingerprint_707
+ +       0.0025 * (normalized) Fingerprint_704
+ +       0.0393 * (normalized) Fingerprint_702
+ -       0.0495 * (normalized) Fingerprint_698
+ +       0.0817 * (normalized) Fingerprint_697
+ +       0.0002 * (normalized) Fingerprint_696
+ -       0.0191 * (normalized) Fingerprint_694
+ -       0.0371 * (normalized) Fingerprint_685
+ -       0.0209 * (normalized) Fingerprint_679
+ -       0.025  * (normalized) Fingerprint_677
+ -       0.0647 * (normalized) Fingerprint_674
+ -       0.051  * (normalized) Fingerprint_673
+ +       0.0267 * (normalized) Fingerprint_672
+ +       0.0063 * (normalized) Fingerprint_669
+ +       0.0755 * (normalized) Fingerprint_667
+ +       0.0301 * (normalized) Fingerprint_659
+ +       0.0157 * (normalized) Fingerprint_656
+ +       0.1067 * (normalized) Fingerprint_650
+ +       0.0165 * (normalized) Fingerprint_647
+ -       0.0388 * (normalized) Fingerprint_646
+ +       0.0427 * (normalized) Fingerprint_643
+ -       0.0189 * (normalized) Fingerprint_635
+ -       0.0661 * (normalized) Fingerprint_629
+ -       0.1455 * (normalized) Fingerprint_625
+ -       0.0608 * (normalized) Fingerprint_617
+ -       0.0307 * (normalized) Fingerprint_611
+ +       0.0156 * (normalized) Fingerprint_588
+ -       0.0031 * (normalized) Fingerprint_576
+ -       0.0009 * (normalized) Fingerprint_363
+ +       0.7534
+
+
+
+Number of kernel evaluations: 942490481
+
+Time taken to build model: 547.1 seconds
+
+Time taken to test model on training data: 0.21 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.486 
+Mean absolute error                      1.2946
+Root mean squared error                  1.746 
+Relative absolute error                 83.6767 %
+Root relative squared error             88.0471 %
+Total Number of Instances             2971     
+
+Time taken to perform cross-validation: 3335.72 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.456 
+Mean absolute error                      1.3376
+Root mean squared error                  1.7818
+Relative absolute error                 86.4259 %
+Root relative squared error             89.821  %
+Total Number of Instances             2971     
+

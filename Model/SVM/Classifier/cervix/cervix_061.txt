@@ -1,0 +1,76 @@
+
+Options: -C 1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.0032 * (normalized) DOM_Pkinase_CSV
+ +       0.0227 * (normalized) DOM_Pkinase_EXP
+ +       0.0083 * (normalized) PWY_R_HSA_1266738_EXP
+ -       0.007  * (normalized) PWY_R_HSA_162582_EXP
+ +       0.0124 * (normalized) PWY_R_HSA_168256_EXP
+ -       0.0199 * (normalized) PWY_R_HSA_194315_EXP
+ -       0.0017 * (normalized) GO_0006468_CSV
+ -       0.0043 * (normalized) GO_0006468_EXP
+ +       0.0106 * (normalized) GO_0007165_EXP
+ -       0.0088 * (normalized) GO_0018105_EXP
+ +       0.0046 * (normalized) GO_0035556_EXP
+ +       0.0079 * (normalized) GO_0046777_EXP
+ -       0.0218 * (normalized) FAM_CAMK_EXP
+ +       0.0054 * (normalized) FAM_TK_EXP
+ -       0.0028 * (normalized) CLS_average_ploidy
+ +       0.0695 * (normalized) EXP_IRAK3
+ -       0.0006 * (normalized) EXP_DYRK2
+ -       0.0358 * (normalized) EXP_BRD4
+ -       0.0119 * (normalized) EXP_MAP2K7
+ +       0.0133 * (normalized) EXP_POMK
+ +       0.0358 * (normalized) EXP_LRRK1
+ +       0.0162 * (normalized) EXP_CLK4
+ +       0.0021 * (normalized) EXP_MYO3B
+ -       0.0129 * (normalized) EXP_ILK
+ +       0.0066 * (normalized) EXP_BRD4_X_EXP_HIST4H4
+ -       0.032  * (normalized) EXP_BRD4_X_EXP_MYC
+ -       0.0322 * (normalized) EXP_BRD4_X_EXP_NUMA1
+ -       0.0085 * (normalized) EXP_BRD4_X_EXP_NUTM1
+ +       0.0015 * (normalized) EXP_BRD4_X_EXP_ZC3H18
+ -       0.0327 * (normalized) EXP_DYRK2_X_EXP_MDM4
+ -       0.0058 * (normalized) EXP_DYRK2_X_EXP_UBA52
+ -       0.0026 * (normalized) EXP_DYRK2_X_EXP_UBC
+ +       0.0039 * (normalized) EXP_ILK_X_EXP_ACTN1
+ +       0.0041 * (normalized) EXP_ILK_X_EXP_ARHGEF7
+ -       0.0022 * (normalized) EXP_ILK_X_EXP_CDC37
+ -       0.0214 * (normalized) EXP_ILK_X_EXP_CKAP5
+ +       0.0191 * (normalized) EXP_ILK_X_EXP_CREB1
+ +       0.7335
+
+
+
+Number of kernel evaluations: 545490 (97.458% cached)
+
+Time taken to build model: 4.45 seconds
+
+Time taken to test model on training data: 0.2 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3912
+Mean absolute error                      1.5403
+Root mean squared error                  1.9905
+Relative absolute error                 90.3483 %
+Root relative squared error             94.0383 %
+Total Number of Instances             1044     
+
+Time taken to perform cross-validation: 19.89 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.3664
+Mean absolute error                      1.5686
+Root mean squared error                  2.0157
+Relative absolute error                 91.7973 %
+Root relative squared error             95.0112 %
+Total Number of Instances             1044     
+

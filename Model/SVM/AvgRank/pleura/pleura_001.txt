@@ -1,0 +1,75 @@
+
+Options: -C 0.01 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 1e-05 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0736 * (normalized) From_Sanger
+ -       0.0793 * (normalized) Fingerprint_797
+ -       0.0098 * (normalized) Fingerprint_712
+ +       0.0434 * (normalized) MOT_2D_linker_EXP
+ -       0.0279 * (normalized) SDOM_subdomainI_CSV
+ +       0.0219 * (normalized) SDOM_subdomainV_CSV
+ +       0.0053 * (normalized) EXP_FASTK
+ +       0.0152 * (normalized) EXP_BTK
+ +       0.0247 * (normalized) EXP_CDKL4
+ -       0.0144 * (normalized) EXP_SRPK3
+ +       0.0087 * (normalized) EXP_BTK_X_EXP_CD79A
+ -       0.0135 * (normalized) EXP_MARK3_X_EXP_HDAC4
+ -       0.0121 * (normalized) EXP_MARK3_X_EXP_IQGAP1
+ -       0.0193 * (normalized) EXP_MARK3_X_EXP_PPP2CB
+ +       0.0127 * (normalized) EXP_MET_X_EXP_CBLB
+ +       0.0031 * (normalized) EXP_MET_X_EXP_CBLC
+ +       0.0089 * (normalized) EXP_MET_X_EXP_FGF12
+ +       0.0036 * (normalized) EXP_MET_X_EXP_PDGFA
+ -       0.0128 * (normalized) EXP_MET_X_EXP_PIK3R3
+ +       0.0049 * (normalized) EXP_MET_X_EXP_RAPGEF1
+ -       0.0032 * (normalized) EXP_MET_X_EXP_SH3GLB1
+ +       0.0116 * (normalized) EXP_PRKD3_X_EXP_CREB5
+ +       0.0141 * (normalized) EXP_PTK6_X_EXP_CCND1
+ +       0.0175 * (normalized) EXP_PTK6_X_EXP_PTPN1
+ +       0.0038 * (normalized) EXP_RIPK2_X_EXP_TAB1
+ -       0.0098 * (normalized) EXP_RIPK2_X_EXP_TRAF6
+ +       0.0028 * (normalized) EXP_SYK_X_EXP_CD79A
+ +       0.0096 * (normalized) EXP_SYK_X_EXP_CLEC6A
+ -       0.0002 * (normalized) EXP_SYK_X_EXP_CSF2RB
+ +       0.0146 * (normalized) EXP_SYK_X_EXP_FASLG
+ +       0.0007 * (normalized) EXP_SYK_X_EXP_LCP2
+ -       0.0105 * (normalized) EXP_SYK_X_EXP_PLCG2
+ -       0.0035 * (normalized) EXP_SYK_X_EXP_PXN
+ +       0.0067 * (normalized) EXP_SYK_X_EXP_TRAT1
+ +       0.008  * (normalized) EXP_SYK_X_EXP_VWF
+ +       0.0153 * (normalized) GO_0023014_EXP_X_GO_0030308_EXP
+ +       0.682 
+
+
+
+Number of kernel evaluations: 2051003 (84.819% cached)
+
+Time taken to build model: 2.21 seconds
+
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.393 
+Mean absolute error                      1.4571
+Root mean squared error                  1.8827
+Relative absolute error                 89.7128 %
+Root relative squared error             93.0845 %
+Total Number of Instances             1431     
+
+Time taken to perform cross-validation: 7.56 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.3734
+Mean absolute error                      1.4796
+Root mean squared error                  1.8997
+Relative absolute error                 91.0097 %
+Root relative squared error             93.849  %
+Total Number of Instances             1431     
+

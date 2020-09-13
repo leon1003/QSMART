@@ -1,0 +1,76 @@
+
+Options: -C 1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.0001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.1074 * (normalized) From_Sanger
+ +       0.0519 * (normalized) Fingerprint_826
+ +       0.0478 * (normalized) Fingerprint_824
+ +       0.0897 * (normalized) Fingerprint_822
+ -       0.0185 * (normalized) Fingerprint_821
+ +       0.0649 * (normalized) Fingerprint_820
+ +       0.051  * (normalized) Fingerprint_819
+ -       0.0848 * (normalized) Fingerprint_818
+ -       0.0457 * (normalized) Fingerprint_813
+ -       0.1558 * (normalized) Fingerprint_797
+ -       0.0134 * (normalized) Fingerprint_791
+ +       0.0327 * (normalized) Fingerprint_776
+ -       0.1236 * (normalized) Fingerprint_714
+ +       0.0475 * (normalized) Fingerprint_710
+ +       0.0624 * (normalized) Fingerprint_697
+ +       0.0431 * (normalized) Fingerprint_686
+ +       0.0067 * (normalized) Fingerprint_685
+ -       0.0891 * (normalized) Fingerprint_677
+ -       0.0488 * (normalized) Fingerprint_673
+ +       0.0883 * (normalized) Fingerprint_667
+ -       0.0358 * (normalized) Fingerprint_646
+ -       0.0483 * (normalized) Fingerprint_644
+ -       0.0162 * (normalized) Fingerprint_643
+ +       0.0492 * (normalized) Fingerprint_635
+ -       0.0786 * (normalized) Fingerprint_629
+ -       0.0543 * (normalized) Fingerprint_617
+ -       0.0636 * (normalized) Fingerprint_611
+ +       0.0543 * (normalized) Fingerprint_588
+ +       0.0343 * (normalized) Fingerprint_363
+ +       0.0003 * (normalized) GO_0030336_EXP
+ +       0.0464 * (normalized) EXP_IRAK3
+ -       0.0665 * (normalized) EXP_BRD4
+ -       0.0286 * (normalized) PKA_137_POL_X_Fingerprint_576
+ -       0.0119 * (normalized) EXP_BRD4_X_EXP_MYC
+ -       0.014  * (normalized) EXP_BRD4_X_EXP_NUMA1
+ +       0.048  * (normalized) EXP_IRAK3_X_EXP_IL1RAP
+ -       0.042  * (normalized) EXP_MAP2K7_X_EXP_PIK3CG
+ +       0.9121
+
+
+
+Number of kernel evaluations: 545490 (98.691% cached)
+
+Time taken to build model: 4.23 seconds
+
+Time taken to test model on training data: 0.1 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.6568
+Mean absolute error                      1.1994
+Root mean squared error                  1.609 
+Relative absolute error                 70.3535 %
+Root relative squared error             76.0146 %
+Total Number of Instances             1044     
+
+Time taken to perform cross-validation: 18.79 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.6248
+Mean absolute error                      1.2724
+Root mean squared error                  1.6672
+Relative absolute error                 74.4607 %
+Root relative squared error             78.5857 %
+Total Number of Instances             1044     
+

@@ -1,0 +1,123 @@
+
+Options: -C 10 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.0001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0641 * (normalized) From_Sanger
+ -       0.0978 * (normalized) Fingerprint_834
+ +       0.0993 * (normalized) Fingerprint_833
+ -       0.0913 * (normalized) Fingerprint_830
+ +       0.1658 * (normalized) Fingerprint_826
+ +       0.0998 * (normalized) Fingerprint_825
+ +       0.1099 * (normalized) Fingerprint_824
+ -       0.1317 * (normalized) Fingerprint_822
+ +       0.0208 * (normalized) Fingerprint_821
+ +       0.1675 * (normalized) Fingerprint_820
+ +       0.203  * (normalized) Fingerprint_819
+ -       0.112  * (normalized) Fingerprint_818
+ -       0.1821 * (normalized) Fingerprint_813
+ -       0.0265 * (normalized) Fingerprint_812
+ -       0.0344 * (normalized) Fingerprint_809
+ +       0.0971 * (normalized) Fingerprint_803
+ +       0.2279 * (normalized) Fingerprint_801
+ -       0.0342 * (normalized) Fingerprint_800
+ +       0.1714 * (normalized) Fingerprint_799
+ -       0.0639 * (normalized) Fingerprint_797
+ -       0.0864 * (normalized) Fingerprint_791
+ -       0.0409 * (normalized) Fingerprint_784
+ +       0.3279 * (normalized) Fingerprint_780
+ -       0.0532 * (normalized) Fingerprint_779
+ +       0.1003 * (normalized) Fingerprint_776
+ -       0.1117 * (normalized) Fingerprint_714
+ -       0.052  * (normalized) Fingerprint_712
+ +       0.0798 * (normalized) Fingerprint_711
+ +       0.1615 * (normalized) Fingerprint_710
+ -       0.1808 * (normalized) Fingerprint_709
+ +       0.1052 * (normalized) Fingerprint_705
+ -       0.0198 * (normalized) Fingerprint_704
+ -       0.0008 * (normalized) Fingerprint_702
+ -       0.1021 * (normalized) Fingerprint_698
+ +       0.0633 * (normalized) Fingerprint_697
+ -       0.0046 * (normalized) Fingerprint_696
+ +       0.5291 * (normalized) Fingerprint_687
+ -       0.028  * (normalized) Fingerprint_686
+ -       0.088  * (normalized) Fingerprint_685
+ +       0.002  * (normalized) Fingerprint_679
+ -       0.1326 * (normalized) Fingerprint_677
+ +       0.0353 * (normalized) Fingerprint_676
+ -       0.0368 * (normalized) Fingerprint_674
+ -       0.0193 * (normalized) Fingerprint_673
+ +       0.1966 * (normalized) Fingerprint_669
+ +       0.1557 * (normalized) Fingerprint_667
+ +       0.0737 * (normalized) Fingerprint_659
+ +       0.0016 * (normalized) Fingerprint_658
+ -       0.0972 * (normalized) Fingerprint_656
+ -       0.0642 * (normalized) Fingerprint_650
+ -       0.0439 * (normalized) Fingerprint_646
+ -       0.0516 * (normalized) Fingerprint_644
+ -       0.0106 * (normalized) Fingerprint_643
+ +       0.0268 * (normalized) Fingerprint_635
+ -       0.0938 * (normalized) Fingerprint_629
+ -       0.1694 * (normalized) Fingerprint_625
+ -       0.1637 * (normalized) Fingerprint_617
+ -       0.0542 * (normalized) Fingerprint_611
+ +       0.0939 * (normalized) Fingerprint_576
+ +       0.0789 * (normalized) Fingerprint_363
+ -       0.0205 * (normalized) SDOM_subdomainXI_EXP
+ +       0.0674 * (normalized) PWY_R_HSA_2029480
+ +       0.0168 * (normalized) PWY_R_HSA_449147
+ -       0.0107 * (normalized) GO_0038083
+ -       0.0197 * (normalized) FAM_Other_CSV
+ -       0.0127 * (normalized) EXP_TRIM66
+ +       0.0053 * (normalized) EXP_STKLD1
+ +       0.0462 * (normalized) EXP_KDR_X_EXP_RHOA
+ -       0.0448 * (normalized) EXP_KDR_X_EXP_RNF41
+ -       0.0391 * (normalized) EXP_KDR_X_EXP_SH3GL2
+ -       0.0232 * (normalized) EXP_KDR_X_EXP_WASF1
+ -       0.0042 * (normalized) EXP_MAP3K9_X_EXP_RAC1
+ -       0.0059 * (normalized) EXP_OXSR1_X_EXP_SLC22A14
+ +       0.0009 * (normalized) EXP_RPS6KB1_X_EXP_EIF4B
+ -       0.0109 * (normalized) EXP_RPS6KB1_X_EXP_MYC
+ +       0.0017 * (normalized) EXP_TAF1_X_EXP_BRPF3
+ +       0.0015 * (normalized) EXP_TAF1_X_EXP_HIST1H2BC
+ -       0.0251 * (normalized) EXP_TAF1_X_EXP_SMARCC1
+ +       0.0019 * (normalized) EXP_TAF1_X_EXP_TEX10
+ +       0.0003 * (normalized) EXP_TAF1_X_EXP_WDR5
+ +       0.0486 * (normalized) PWY_R_HSA_166058_X_PWY_R_HSA_397014
+ -       0.0126 * (normalized) PWY_R_HSA_168138_X_PWY_R_HSA_397014
+ +       0.0107 * (normalized) PWY_R_HSA_195258_X_PWY_R_HSA_2454202
+ -       0.0248 * (normalized) GO_0006397_EXP_X_GO_0018105_EXP
+ +       1.0362
+
+
+
+Number of kernel evaluations: 731511191
+
+Time taken to build model: 537.84 seconds
+
+Time taken to test model on training data: 0.18 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.6743
+Mean absolute error                      1.1568
+Root mean squared error                  1.6019
+Relative absolute error                 67.9573 %
+Root relative squared error             74.3349 %
+Total Number of Instances             2421     
+
+Time taken to perform cross-validation: 3491.26 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.6464
+Mean absolute error                      1.219 
+Root mean squared error                  1.6601
+Relative absolute error                 71.5899 %
+Root relative squared error             77.0087 %
+Total Number of Instances             2421     
+
