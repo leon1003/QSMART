@@ -1,9 +1,0 @@
-
-Neural(
-	Y( :IC50 ),
-	X( :GO_0000278, :GO_0016477, :SFAM_RIPK, :FAM_TKL_CSV ),
-	Informative Missing( 0 ),
-	Validation Method( "KFold", 10 ),
-	Set Random Seed( 1234 ),
-	Fit( NTanH( 7 ), Penalty Method( "Absolute" ), Number of Tours( 200 ) )
-);
