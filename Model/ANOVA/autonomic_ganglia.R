@@ -1,0 +1,7 @@
+mydata = read.table('./TrainingSet/AvgRank/autonomic_ganglia.csv',head=T,sep=",")
+model = lm(IC50 ~ factor(Cancer) + factor(Drug), data=mydata)
+sse <- c(crossprod(model$residuals))
+sink('./Model/ANOVA/autonomic_ganglia.txt',append=TRUE)
+print(summary(model))
+print(sse)
+sink()
