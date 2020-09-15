@@ -1,0 +1,101 @@
+
+Options: -C 0.1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.041  * (normalized) From_Sanger
+ -       0.067  * (normalized) Fingerprint_834
+ -       0.1002 * (normalized) Fingerprint_830
+ +       0.2116 * (normalized) Fingerprint_827
+ +       0.019  * (normalized) Fingerprint_826
+ +       0.0091 * (normalized) Fingerprint_825
+ -       0.0124 * (normalized) Fingerprint_824
+ +       0.015  * (normalized) Fingerprint_822
+ -       0.025  * (normalized) Fingerprint_821
+ +       0.1049 * (normalized) Fingerprint_820
+ +       0.1084 * (normalized) Fingerprint_819
+ -       0.0114 * (normalized) Fingerprint_818
+ -       0.1792 * (normalized) Fingerprint_813
+ +       0.0373 * (normalized) Fingerprint_812
+ -       0.0656 * (normalized) Fingerprint_809
+ -       0.0723 * (normalized) Fingerprint_806
+ +       0.0257 * (normalized) Fingerprint_803
+ +       0.0544 * (normalized) Fingerprint_801
+ +       0.0248 * (normalized) Fingerprint_800
+ +       0.031  * (normalized) Fingerprint_799
+ -       0.0391 * (normalized) Fingerprint_798
+ -       0.1326 * (normalized) Fingerprint_797
+ -       0.1273 * (normalized) Fingerprint_792
+ -       0.0491 * (normalized) Fingerprint_785
+ +       0.0151 * (normalized) Fingerprint_784
+ +       0.0511 * (normalized) Fingerprint_780
+ -       0.03   * (normalized) Fingerprint_779
+ +       0.0009 * (normalized) Fingerprint_776
+ -       0.0113 * (normalized) Fingerprint_714
+ -       0.0727 * (normalized) Fingerprint_712
+ +       0.0543 * (normalized) Fingerprint_711
+ +       0.1206 * (normalized) Fingerprint_710
+ -       0.0658 * (normalized) Fingerprint_709
+ -       0.0302 * (normalized) Fingerprint_707
+ -       0.0016 * (normalized) Fingerprint_704
+ +       0.0349 * (normalized) Fingerprint_702
+ -       0.0421 * (normalized) Fingerprint_698
+ +       0.0799 * (normalized) Fingerprint_697
+ +       0.0067 * (normalized) Fingerprint_696
+ -       0.0156 * (normalized) Fingerprint_694
+ -       0.027  * (normalized) Fingerprint_685
+ -       0.0103 * (normalized) Fingerprint_679
+ -       0.0285 * (normalized) Fingerprint_677
+ -       0.0565 * (normalized) Fingerprint_674
+ -       0.0462 * (normalized) Fingerprint_673
+ +       0.0249 * (normalized) Fingerprint_672
+ +       0.0136 * (normalized) Fingerprint_669
+ +       0.0772 * (normalized) Fingerprint_667
+ +       0.0289 * (normalized) Fingerprint_659
+ +       0.02   * (normalized) Fingerprint_656
+ +       0.098  * (normalized) Fingerprint_650
+ +       0.0146 * (normalized) Fingerprint_647
+ -       0.0427 * (normalized) Fingerprint_646
+ +       0.042  * (normalized) Fingerprint_643
+ -       0.0108 * (normalized) Fingerprint_635
+ -       0.0586 * (normalized) Fingerprint_629
+ -       0.135  * (normalized) Fingerprint_625
+ -       0.0599 * (normalized) Fingerprint_617
+ -       0.0282 * (normalized) Fingerprint_611
+ +       0.0138 * (normalized) Fingerprint_588
+ -       0.0083 * (normalized) Fingerprint_576
+ -       0.0048 * (normalized) Fingerprint_363
+ +       0.7284
+
+
+
+Number of kernel evaluations: 90233448 (37.625% cached)
+
+Time taken to build model: 28.36 seconds
+
+Time taken to test model on training data: 0.16 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.4868
+Mean absolute error                      1.2951
+Root mean squared error                  1.7437
+Relative absolute error                 83.7058 %
+Root relative squared error             87.928  %
+Total Number of Instances             2971     
+
+Time taken to perform cross-validation: 95.98 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.4568
+Mean absolute error                      1.3377
+Root mean squared error                  1.7787
+Relative absolute error                 86.4365 %
+Root relative squared error             89.6606 %
+Total Number of Instances             2971     
+
