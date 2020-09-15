@@ -1,0 +1,36 @@
+
+Options: -P 100 -I 100 -num-slots 1 -V 0.001 -S 1 -K 15 -M 15 -depth 15 
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 15 -M 15.0 -V 0.001 -S 1 -depth 15 -do-not-check-capabilities
+
+Time taken to build model: 11.77 seconds
+
+Time taken to test model on training data: 0.9 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.7915
+Mean absolute error                      1.1897
+Root mean squared error                  1.5398
+Relative absolute error                 66.5845 %
+Root relative squared error             67.1328 %
+Total Number of Instances             5732     
+
+Time taken to perform cross-validation: 68.85 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.6838
+Mean absolute error                      1.3529
+Root mean squared error                  1.7409
+Relative absolute error                 75.7182 %
+Root relative squared error             75.8955 %
+Total Number of Instances             5732     
+
