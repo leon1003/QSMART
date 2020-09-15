@@ -1,0 +1,76 @@
+
+Options: -C 0.1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.01 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0853 * (normalized) From_Sanger
+ -       0.0321 * (normalized) Fingerprint_821
+ -       0.1092 * (normalized) Fingerprint_797
+ +       0.002  * (normalized) PKA_242
+ -       0.002  * (normalized) PKA_242_ASA
+ +       0.0194 * (normalized) PKA_73
+ -       0.018  * (normalized) PKA_73_ENG
+ -       0.0063 * (normalized) PKA_73_VOL
+ -       0.002  * (normalized) PKA_95_ASA
+ +       0.002  * (normalized) PKA_95_CSV
+ +       0.002  * (normalized) PKA_95_ENG
+ +       0.002  * (normalized) PKA_95_EXP
+ +       0.002  * (normalized) PKA_95_HYD
+ +       0.0054 * (normalized) SDOM_subdomainX_CSV
+ +       0.002  * (normalized) MUT_FRK_EXP
+ +       0.002  * (normalized) MUT_MAPK15_EXP
+ -       0.0034 * (normalized) MUT_PRKDC_EXP
+ -       0.0434 * (normalized) GO_0030336_EXP
+ -       0.0063 * (normalized) GO_0034446_EXP
+ +       0.0107 * (normalized) GO_0045787_CSV
+ +       0.0287 * (normalized) EXP_IRAK3
+ +       0.0002 * (normalized) EXP_DYRK2
+ -       0.0628 * (normalized) EXP_BRD4
+ -       0.0136 * (normalized) EXP_MAP2K7
+ +       0.03   * (normalized) EXP_POMK
+ -       0.0146 * (normalized) EXP_LRRK1
+ -       0.0177 * (normalized) EXP_BRD4_X_EXP_MYC
+ -       0.0066 * (normalized) EXP_BRD4_X_EXP_NUMA1
+ +       0.0032 * (normalized) EXP_DYRK2_X_EXP_UBC
+ +       0.0428 * (normalized) EXP_IRAK3_X_EXP_IL1RAP
+ +       0.0119 * (normalized) EXP_IRAK3_X_EXP_LRGUK
+ +       0.0102 * (normalized) EXP_IRAK3_X_EXP_TLR4
+ -       0.0042 * (normalized) EXP_MAP2K7_X_EXP_HPGDS
+ -       0.0065 * (normalized) EXP_MAP2K7_X_EXP_PIK3CD
+ -       0.0431 * (normalized) EXP_MAP2K7_X_EXP_PIK3CG
+ +       0.002  * (normalized) GO_0030282_EXP_X_GO_0031098_EXP
+ +       0.002  * (normalized) GO_0030282_EXP_X_GO_0032147_EXP
+ +       0.8119
+
+
+
+Number of kernel evaluations: 545490 (93.01% cached)
+
+Time taken to build model: 1.86 seconds
+
+Time taken to test model on training data: 0.1 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.5204
+Mean absolute error                      1.4169
+Root mean squared error                  1.8338
+Relative absolute error                 83.1094 %
+Root relative squared error             86.632  %
+Total Number of Instances             1044     
+
+Time taken to perform cross-validation: 6.28 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.505 
+Mean absolute error                      1.4428
+Root mean squared error                  1.8551
+Relative absolute error                 84.4345 %
+Root relative squared error             87.4408 %
+Total Number of Instances             1044     
+

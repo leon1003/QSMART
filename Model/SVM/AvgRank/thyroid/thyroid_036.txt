@@ -1,0 +1,72 @@
+
+Options: -C 0.1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0872 * (normalized) From_Sanger
+ -       0.0983 * (normalized) Fingerprint_818
+ -       0.0798 * (normalized) Fingerprint_797
+ +       0.0138 * (normalized) Fingerprint_712
+ +       0.0895 * (normalized) Fingerprint_710
+ +       0.1046 * (normalized) Fingerprint_686
+ -       0.1096 * (normalized) Fingerprint_677
+ -       0.04   * (normalized) Fingerprint_646
+ -       0.007  * (normalized) PKA_190_EXP
+ -       0.0047 * (normalized) REC_R_HSA_199839
+ +       0.0072 * (normalized) GO_0034976
+ -       0.0249 * (normalized) EXP_STK10
+ -       0.0086 * (normalized) EXP_PLK3
+ -       0.0241 * (normalized) EXP_CDKL5
+ -       0.0073 * (normalized) EXP_PRKCG
+ -       0.0094 * (normalized) EXP_SGK2
+ +       0.0205 * (normalized) EXP_SLK
+ +       0.0257 * (normalized) EXP_CLK4
+ +       0.0305 * (normalized) EXP_TLK1
+ +       0.0046 * (normalized) EXP_PLK3_X_EXP_CDC14B
+ +       0.0018 * (normalized) EXP_PLK3_X_EXP_CDC27
+ -       0.0117 * (normalized) EXP_PLK3_X_EXP_PTEN
+ -       0.0171 * (normalized) EXP_PLK3_X_EXP_RAD21
+ +       0.0039 * (normalized) EXP_PLK3_X_EXP_YWHAH
+ +       0.002  * (normalized) EXP_PRKCG_X_EXP_GNAI3
+ -       0.0095 * (normalized) EXP_PRKCG_X_EXP_GNG8
+ -       0.0143 * (normalized) EXP_PRKCG_X_EXP_PLCB3
+ -       0.0105 * (normalized) EXP_PRKCG_X_EXP_SLC9A1
+ -       0.0271 * (normalized) EXP_PRKCG_X_EXP_TRPV4
+ -       0.0053 * (normalized) EXP_SGK2_X_EXP_UBC
+ +       0.0117 * (normalized) EXP_TLK1_X_EXP_ASF1A
+ +       0.0369 * (normalized) PWY_R_HSA_2682334_EXP_X_PWY_R_HSA_416476_EXP
+ +       0.0213 * (normalized) PWY_R_HSA_2682334_X_PWY_R_HSA_416476
+ +       0.7876
+
+
+
+Number of kernel evaluations: 1338835 (89.503% cached)
+
+Time taken to build model: 2.06 seconds
+
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.5073
+Mean absolute error                      1.5521
+Root mean squared error                  2.026 
+Relative absolute error                 84.1079 %
+Root relative squared error             87.0139 %
+Total Number of Instances             1352     
+
+Time taken to perform cross-validation: 5.66 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.4832
+Mean absolute error                      1.5912
+Root mean squared error                  2.0586
+Relative absolute error                 86.2039 %
+Root relative squared error             88.3781 %
+Total Number of Instances             1352     
+

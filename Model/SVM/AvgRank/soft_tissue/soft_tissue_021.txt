@@ -1,0 +1,102 @@
+
+Options: -C 0.01 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.1 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.093  * (normalized) Fingerprint_797
+ +       0.0006 * (normalized) MOT_3D_RegulatorySpine_CSV
+ +       0.0012 * (normalized) MOT_3D_RegulatorySpine_EXP
+ +       0.004  * (normalized) DOM_Pkinase_Tyr_CSV
+ +       0.0024 * (normalized) DOM_Pkinase_Tyr_EXP
+ +       0.0023 * (normalized) MUT_ROS1_EXP
+ -       0.0018 * (normalized) REC_R_HSA_194913_EXP
+ +       0.0049 * (normalized) REC_R_HSA_194922_EXP
+ +       0.0069 * (normalized) REC_R_HSA_198284
+ +       0.0167 * (normalized) REC_R_HSA_3928602
+ +       0.0031 * (normalized) REC_R_HSA_5218804
+ +       0.0009 * (normalized) PWY_R_HSA_109582_EXP
+ -       0.0014 * (normalized) PWY_R_HSA_193704_EXP
+ -       0.0022 * (normalized) PWY_R_HSA_194313_EXP
+ -       0.0018 * (normalized) PWY_R_HSA_194840_EXP
+ +       0.001  * (normalized) PWY_R_HSA_5673001_EXP
+ +       0.0021 * (normalized) PWY_R_HSA_5683057_EXP
+ +       0.0081 * (normalized) PWY_R_HSA_5687128
+ -       0.0016 * (normalized) PWY_R_HSA_73887_EXP
+ +       0.0001 * (normalized) PWY_R_HSA_76002_EXP
+ -       0.0006 * (normalized) GO_0000165
+ +       0.0002 * (normalized) GO_0000165_EXP
+ +       0.0025 * (normalized) GO_0000186_EXP
+ +       0.0038 * (normalized) GO_0007346_EXP
+ -       0.0007 * (normalized) GO_0014068_EXP
+ +       0.017  * (normalized) GO_0016477_CSV
+ +       0.0015 * (normalized) GO_0016477_EXP
+ -       0.0014 * (normalized) GO_0018108_CSV
+ -       0.0005 * (normalized) GO_0018108_EXP
+ +       0.0042 * (normalized) GO_0023014
+ +       0.0038 * (normalized) GO_0035023
+ +       0.0022 * (normalized) GO_0035023_EXP
+ +       0.0075 * (normalized) GO_0038083_EXP
+ +       0.0007 * (normalized) GO_0043065
+ +       0.0003 * (normalized) GO_0043065_EXP
+ -       0.0059 * (normalized) GO_0043066_EXP
+ -       0.0033 * (normalized) GO_0043410_EXP
+ -       0.0091 * (normalized) GO_0043507_EXP
+ +       0.0064 * (normalized) GO_0045893_EXP
+ +       0.006  * (normalized) GO_0046330_EXP
+ +       0.0173 * (normalized) GO_0048008
+ +       0.0039 * (normalized) GO_0070372
+ +       0.0062 * (normalized) GO_0070372_EXP
+ -       0.0037 * (normalized) GO_0070374_EXP
+ +       0.0247 * (normalized) SFAM_TTBK
+ +       0.0099 * (normalized) FAM_CK1
+ +       0.0033 * (normalized) FAM_TKL_EXP
+ +       0.0049 * (normalized) FAM_TK_CSV
+ +       0.0025 * (normalized) FAM_TK_EXP
+ -       0.0101 * (normalized) EXP_CSNK1A1L
+ -       0.025  * (normalized) EXP_ADCK2
+ +       0.0078 * (normalized) EXP_ERN2
+ +       0.0074 * (normalized) EXP_ERN2_X_EXP_LRGUK
+ +       0.0177 * (normalized) EXP_FGR_X_EXP_PIK3R5
+ +       0.0057 * (normalized) EXP_GRK5_X_EXP_APP
+ +       0.0269 * (normalized) EXP_ITK_X_EXP_CD28
+ +       0.0159 * (normalized) EXP_ITK_X_EXP_LCP2
+ +       0.0087 * (normalized) EXP_MKNK1_X_EXP_EIF4E1B
+ +       0.0192 * (normalized) EXP_PHKG2_X_EXP_C1QTNF1
+ -       0.0026 * (normalized) EXP_TXK_X_EXP_GRAP2
+ +       0.0157 * (normalized) EXP_TXK_X_EXP_PHLPP1
+ +       0.0046 * (normalized) PWY_R_HSA_199418_X_PWY_R_HSA_5627123
+ -       0.0022 * (normalized) GO_0042060_X_GO_0070059
+ +       0.5828
+
+
+
+Number of kernel evaluations: 15021092 (25.294% cached)
+
+Time taken to build model: 6.79 seconds
+
+Time taken to test model on training data: 0.21 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3749
+Mean absolute error                      1.6364
+Root mean squared error                  2.0698
+Relative absolute error                 92.4313 %
+Root relative squared error             93.0673 %
+Total Number of Instances             1938     
+
+Time taken to perform cross-validation: 24.62 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.3595
+Mean absolute error                      1.6482
+Root mean squared error                  2.084 
+Relative absolute error                 93.0848 %
+Root relative squared error             93.6929 %
+Total Number of Instances             1938     
+
