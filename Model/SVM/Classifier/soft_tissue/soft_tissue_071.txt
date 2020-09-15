@@ -1,0 +1,102 @@
+
+Options: -C 1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.1 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0071 * (normalized) MOT_2D_activationsegment_EXP
+ +       0.0056 * (normalized) DOM_Pkinase_CSV
+ +       0.0067 * (normalized) DOM_Pkinase_EXP
+ +       0.0092 * (normalized) PWY_R_HSA_162582_EXP
+ +       0.0048 * (normalized) GO_0006468_EXP
+ +       0.0089 * (normalized) GO_0007169
+ +       0.0122 * (normalized) GO_0007169_EXP
+ +       0.0023 * (normalized) GO_0008284_EXP
+ +       0.0046 * (normalized) GO_0018105_EXP
+ +       0.0038 * (normalized) GO_0035556_CSV
+ +       0.0062 * (normalized) GO_0035556_EXP
+ +       0.007  * (normalized) GO_0046777_EXP
+ +       0.0117 * (normalized) FAM_CAMK_EXP
+ +       0.0096 * (normalized) FAM_TK_EXP
+ +       0.0382 * (normalized) CLS_average_ploidy
+ +       0.0172 * (normalized) EXP_TXK
+ +       0.0143 * (normalized) EXP_ITK
+ -       0.0041 * (normalized) EXP_MKNK1
+ -       0.0045 * (normalized) EXP_CASK
+ -       0.0069 * (normalized) EXP_TSSK4
+ -       0.006  * (normalized) EXP_CSNK1A1L
+ +       0.0159 * (normalized) EXP_PHKG2
+ -       0.0127 * (normalized) EXP_ADCK2
+ +       0.0094 * (normalized) EXP_ERN2
+ -       0.0246 * (normalized) EXP_RYK
+ +       0.0204 * (normalized) EXP_FGR
+ -       0.0143 * (normalized) EXP_MAP3K21
+ -       0.0108 * (normalized) EXP_NIM1K
+ +       0.0088 * (normalized) EXP_MOS
+ -       0.0083 * (normalized) EXP_GRK5
+ -       0.0117 * (normalized) EXP_MAP3K7
+ +       0.0164 * (normalized) EXP_CASK_X_EXP_APBA2
+ -       0.0049 * (normalized) EXP_CASK_X_EXP_CAD
+ -       0.0116 * (normalized) EXP_CASK_X_EXP_CALM2
+ -       0.0058 * (normalized) EXP_CASK_X_EXP_CALM3
+ +       0.0075 * (normalized) EXP_CASK_X_EXP_CASKIN1
+ -       0.0078 * (normalized) EXP_CASK_X_EXP_CPLX1
+ -       0.0034 * (normalized) EXP_CASK_X_EXP_EPB41L1
+ -       0.0014 * (normalized) EXP_CASK_X_EXP_EPB41L5
+ -       0.008  * (normalized) EXP_CASK_X_EXP_EPS8
+ -       0.0033 * (normalized) EXP_CASK_X_EXP_LIN7C
+ -       0.01   * (normalized) EXP_CASK_X_EXP_MCM4
+ -       0.0009 * (normalized) EXP_CASK_X_EXP_NRXN2
+ -       0.0207 * (normalized) EXP_CASK_X_EXP_NRXN3
+ -       0.0058 * (normalized) EXP_CASK_X_EXP_POLR2F
+ -       0.0073 * (normalized) EXP_CASK_X_EXP_PPFIA1
+ -       0.0002 * (normalized) EXP_CASK_X_EXP_PPFIA3
+ -       0.001  * (normalized) EXP_CASK_X_EXP_RAB3A
+ +       0.0175 * (normalized) EXP_CASK_X_EXP_SDC2
+ +       0.0086 * (normalized) EXP_CASK_X_EXP_SDC3
+ +       0.001  * (normalized) EXP_CASK_X_EXP_SLC18A2
+ +       0.001  * (normalized) EXP_CASK_X_EXP_SNAP25
+ -       0.0086 * (normalized) EXP_CASK_X_EXP_SPATA2
+ -       0.0127 * (normalized) EXP_CASK_X_EXP_STX1A
+ +       0.0092 * (normalized) EXP_CASK_X_EXP_SYN1
+ -       0.0097 * (normalized) EXP_CASK_X_EXP_SYN3
+ +       0.0077 * (normalized) EXP_CASK_X_EXP_SYT1
+ -       0.0094 * (normalized) EXP_CASK_X_EXP_UIMC1
+ -       0.0058 * (normalized) EXP_CSNK1A1L_X_EXP_AXIN2
+ +       0.0023 * (normalized) EXP_CSNK1A1L_X_EXP_BYSL
+ +       0.0041 * (normalized) EXP_CSNK1A1L_X_EXP_CTNNB1
+ +       0.0134 * (normalized) EXP_CSNK1A1L_X_EXP_DDB1
+ +       0.0036 * (normalized) EXP_CSNK1A1L_X_EXP_PER2
+ +       0.651 
+
+
+
+Number of kernel evaluations: 20605169 (67.432% cached)
+
+Time taken to build model: 9.55 seconds
+
+Time taken to test model on training data: 0.19 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3095
+Mean absolute error                      1.6749
+Root mean squared error                  2.1294
+Relative absolute error                 94.6044 %
+Root relative squared error             95.7482 %
+Total Number of Instances             1938     
+
+Time taken to perform cross-validation: 63.03 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2786
+Mean absolute error                      1.6936
+Root mean squared error                  2.1496
+Relative absolute error                 95.6495 %
+Root relative squared error             96.6409 %
+Total Number of Instances             1938     
+
