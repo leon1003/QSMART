@@ -1,0 +1,102 @@
+
+Options: -C 1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.01 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0067 * (normalized) MUT_JAK3
+ -       0.0032 * (normalized) MUT_JAK3_EXP
+ -       0.0116 * (normalized) MUT_KDR_EXP
+ -       0.0405 * (normalized) MUT_ROS1
+ -       0.0381 * (normalized) MUT_ROS1_EXP
+ -       0.0387 * (normalized) REC_R_HSA_194913
+ +       0.0691 * (normalized) REC_R_HSA_194922
+ +       0.0556 * (normalized) REC_R_HSA_194922_EXP
+ -       0.0305 * (normalized) REC_R_HSA_4420083
+ -       0.0414 * (normalized) REC_R_HSA_4420083_EXP
+ +       0.0286 * (normalized) PWY_R_HSA_1474244
+ -       0.0214 * (normalized) PWY_R_HSA_194840
+ -       0.0153 * (normalized) PWY_R_HSA_194840_EXP
+ -       0.0757 * (normalized) PWY_R_HSA_2029480
+ -       0.0714 * (normalized) PWY_R_HSA_5683057
+ +       0.1543 * (normalized) PWY_R_HSA_5683057_EXP
+ -       0.0965 * (normalized) GO_0000165
+ +       0.1707 * (normalized) GO_0000165_EXP
+ -       0.0205 * (normalized) GO_0000186
+ +       0.0122 * (normalized) GO_0000186_EXP
+ -       0.0388 * (normalized) GO_0001570
+ -       0.0303 * (normalized) GO_0001570_EXP
+ +       0.0053 * (normalized) GO_0002250_CSV
+ -       0.0288 * (normalized) GO_0007595
+ -       0.0336 * (normalized) GO_0007595_EXP
+ +       0.0137 * (normalized) GO_0008285_CSV
+ -       0.0305 * (normalized) GO_0016477
+ -       0.0397 * (normalized) GO_0018108_CSV
+ +       0.0284 * (normalized) GO_0021772_CSV
+ +       0.0855 * (normalized) GO_0023014
+ -       0.0248 * (normalized) GO_0030183_EXP
+ -       0.0257 * (normalized) GO_0032695_EXP
+ +       0.0427 * (normalized) GO_0035023
+ +       0.0201 * (normalized) GO_0035023_EXP
+ -       0.0197 * (normalized) GO_0035791_EXP
+ -       0.0424 * (normalized) GO_0042102
+ -       0.0376 * (normalized) GO_0042102_EXP
+ +       0.0119 * (normalized) GO_0043065
+ -       0.0005 * (normalized) GO_0043065_EXP
+ -       0.0168 * (normalized) GO_0043406
+ +       0.0079 * (normalized) GO_0043406_EXP
+ +       0.0052 * (normalized) GO_0043627_EXP
+ +       0.1499 * (normalized) GO_0046328_EXP
+ -       0.0165 * (normalized) GO_0048812
+ +       0.0467 * (normalized) GO_0048812_EXP
+ -       0.0316 * (normalized) GO_0051894_EXP
+ +       0.02   * (normalized) GO_0070372
+ +       0.065  * (normalized) GO_0070372_EXP
+ -       0.0068 * (normalized) GO_0070374_EXP
+ -       0.0174 * (normalized) GO_2000573_EXP
+ +       0.0781 * (normalized) FAM_CK1
+ +       0.1656 * (normalized) FAM_TK_CSV
+ -       0.0213 * (normalized) REC_R_HSA_1295516_EXP_X_REC_R_HSA_3928577_EXP
+ +       0.0346 * (normalized) REC_R_HSA_169901_EXP_X_REC_R_HSA_2316434_EXP
+ +       0.0431 * (normalized) REC_R_HSA_169901_EXP_X_REC_R_HSA_5218804_EXP
+ -       0.0052 * (normalized) REC_R_HSA_3928577_EXP_X_REC_R_HSA_5672951_EXP
+ -       0.0072 * (normalized) PWY_R_HSA_112314_CSV_X_PWY_R_HSA_194315_CSV
+ -       0.0345 * (normalized) PWY_R_HSA_2559583_EXP_X_PWY_R_HSA_5627123_EXP
+ -       0.0185 * (normalized) PWY_R_HSA_3928663_EXP_X_PWY_R_HSA_449836_EXP
+ -       0.027  * (normalized) PWY_R_HSA_400685_EXP_X_PWY_R_HSA_449836_EXP
+ +       0.0357 * (normalized) PWY_R_HSA_416572_EXP_X_PWY_R_HSA_449836_EXP
+ +       0.0059 * (normalized) GO_0008584_EXP_X_GO_0031529_EXP
+ -       0.0425 * (normalized) GO_0042060_X_GO_0070059
+ +       0.5868
+
+
+
+Number of kernel evaluations: 30909626 (60.359% cached)
+
+Time taken to build model: 10.79 seconds
+
+Time taken to test model on training data: 0.16 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3065
+Mean absolute error                      1.6701
+Root mean squared error                  2.1422
+Relative absolute error                 94.3332 %
+Root relative squared error             96.323  %
+Total Number of Instances             1938     
+
+Time taken to perform cross-validation: 53.73 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.2835
+Mean absolute error                      1.6916
+Root mean squared error                  2.1582
+Relative absolute error                 95.5336 %
+Root relative squared error             97.0276 %
+Total Number of Instances             1938     
+

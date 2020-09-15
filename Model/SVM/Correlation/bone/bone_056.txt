@@ -1,0 +1,123 @@
+
+Options: -C 1 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.0001 -W 1" -K weka.classifiers.functions.supportVector.PolyKernel 
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.0792 * (normalized) Fingerprint_797
+ -       0.0449 * (normalized) Fingerprint_611
+ -       0.0094 * (normalized) EXP_RIOK1
+ +       0.0064 * (normalized) EXP_PRPF4B
+ -       0.0162 * (normalized) EXP_PLK2
+ +       0.0054 * (normalized) EXP_NTRK3
+ -       0.0159 * (normalized) EXP_FGR
+ +       0.0166 * (normalized) EXP_PRKG1
+ +       0.0173 * (normalized) EXP_CDK13_X_EXP_CCNK
+ +       0.002  * (normalized) EXP_CDK13_X_EXP_CCNT1
+ -       0.0053 * (normalized) EXP_CDK13_X_EXP_ERCC3
+ -       0.0331 * (normalized) EXP_CDK13_X_EXP_PYDC1
+ +       0.0218 * (normalized) EXP_CDK13_X_EXP_SUPT5H
+ +       0.0022 * (normalized) EXP_CDK13_X_EXP_UBXN7
+ +       0.0055 * (normalized) EXP_FGR_X_EXP_PIK3R5
+ -       0.0022 * (normalized) EXP_MERTK_X_EXP_ACACB
+ -       0.0153 * (normalized) EXP_NTRK3_X_EXP_BDNF
+ +       0.0603 * (normalized) EXP_NTRK3_X_EXP_SHC3
+ +       0.0171 * (normalized) EXP_PLK2_X_EXP_CCNA2
+ +       0.0376 * (normalized) EXP_PLK2_X_EXP_CCNF
+ -       0.0268 * (normalized) EXP_PLK2_X_EXP_CDC20B
+ +       0.0245 * (normalized) EXP_PLK2_X_EXP_ESPL1
+ +       0.0139 * (normalized) EXP_PLK2_X_EXP_MAD2L1
+ -       0.0037 * (normalized) EXP_PLK2_X_EXP_RAD21
+ -       0.0002 * (normalized) EXP_PLK2_X_EXP_SMC4
+ +       0.006  * (normalized) EXP_PLK2_X_EXP_STAG1
+ -       0.0018 * (normalized) EXP_PLK2_X_EXP_STAG2
+ -       0.023  * (normalized) EXP_PLK2_X_EXP_STAG3
+ +       0.0268 * (normalized) EXP_PRKACA_X_EXP_NF2
+ +       0.0107 * (normalized) EXP_PRKACA_X_EXP_OR2D2
+ -       0.0403 * (normalized) EXP_PRKACA_X_EXP_OR4D6
+ +       0.0134 * (normalized) EXP_PRKACA_X_EXP_OR4S1
+ -       0.0065 * (normalized) EXP_PRKACG_X_EXP_ADCY1
+ +       0.0305 * (normalized) EXP_PRKACG_X_EXP_CACNA2D4
+ -       0.0067 * (normalized) EXP_PRKACG_X_EXP_CALML3
+ -       0.0239 * (normalized) EXP_PRKACG_X_EXP_CFTR
+ +       0.0165 * (normalized) EXP_PRKACG_X_EXP_KCNE1
+ +       0.0192 * (normalized) EXP_PRKACG_X_EXP_OR10AG1
+ +       0.0224 * (normalized) EXP_PRKACG_X_EXP_OR10V1
+ +       0.0235 * (normalized) EXP_PRKACG_X_EXP_OR2M4
+ -       0.0308 * (normalized) EXP_PRKACG_X_EXP_OR4D6
+ +       0.0218 * (normalized) EXP_PRKACG_X_EXP_OR4S1
+ -       0.0321 * (normalized) EXP_PRKACG_X_EXP_OR56B4
+ +       0.0214 * (normalized) EXP_PRKACG_X_EXP_OR6A2
+ -       0.0148 * (normalized) EXP_PRKACG_X_EXP_OR6B3
+ -       0.0126 * (normalized) EXP_PRKACG_X_EXP_OR8H3
+ -       0.011  * (normalized) EXP_PRKACG_X_EXP_OR8K5
+ +       0.0236 * (normalized) EXP_PRKACG_X_EXP_PKM
+ -       0.0044 * (normalized) EXP_PRKG1_X_EXP_ATP1B4
+ +       0.0081 * (normalized) EXP_PRKG1_X_EXP_PDE5A
+ +       0.0142 * (normalized) EXP_PRKG1_X_EXP_PLCB2
+ +       0.0597 * (normalized) EXP_PRKG1_X_EXP_PRKAR1B
+ +       0.0158 * (normalized) EXP_PRKG1_X_EXP_TAB1
+ +       0.0191 * (normalized) EXP_PRPF4B_X_EXP_EEF2
+ +       0.0048 * (normalized) EXP_RIOK1_X_EXP_DCAF13
+ -       0.035  * (normalized) EXP_RIOK1_X_EXP_HEATR1
+ -       0.0146 * (normalized) EXP_RIOK1_X_EXP_KRI1
+ -       0.0246 * (normalized) EXP_RIOK1_X_EXP_KRR1
+ +       0.0136 * (normalized) EXP_RIOK1_X_EXP_LTV1
+ +       0.0247 * (normalized) EXP_RIOK1_X_EXP_NOL11
+ -       0.0255 * (normalized) EXP_RIOK1_X_EXP_NOL6
+ +       0.0029 * (normalized) EXP_RIOK1_X_EXP_NOP58
+ -       0.013  * (normalized) EXP_RIOK1_X_EXP_PNO1
+ +       0.0071 * (normalized) EXP_RIOK1_X_EXP_RPS11
+ +       0.0216 * (normalized) EXP_RIOK1_X_EXP_RPS12
+ +       0.0127 * (normalized) EXP_RIOK1_X_EXP_RPS15A
+ -       0.0028 * (normalized) EXP_RIOK1_X_EXP_RPS19
+ +       0.0345 * (normalized) EXP_RIOK1_X_EXP_RPS20
+ +       0.0029 * (normalized) EXP_RIOK1_X_EXP_RPS4X
+ -       0.0243 * (normalized) EXP_RIOK1_X_EXP_RRP36
+ -       0.0403 * (normalized) EXP_RIOK1_X_EXP_RRP7A
+ -       0.0005 * (normalized) EXP_RIOK1_X_EXP_SNU13
+ +       0.0245 * (normalized) EXP_RIOK1_X_EXP_UTP11
+ +       0.0004 * (normalized) EXP_RIOK1_X_EXP_UTP15
+ -       0.0188 * (normalized) EXP_RIOK1_X_EXP_UTP3
+ -       0.0258 * (normalized) EXP_RIOK1_X_EXP_WDR36
+ -       0.0023 * (normalized) EXP_RIOK1_X_EXP_WDR43
+ +       0.0219 * (normalized) EXP_RIOK1_X_EXP_WDR75
+ -       0.0053 * (normalized) EXP_RIOK1_X_EXP_XRN2
+ +       0.0372 * (normalized) PWY_R_HSA_168138_EXP_X_PWY_R_HSA_9006934_EXP
+ -       0.0065 * (normalized) PWY_R_HSA_168138_X_PWY_R_HSA_9006934
+ +       0.0057 * (normalized) PWY_R_HSA_168898_EXP_X_PWY_R_HSA_76002_EXP
+ +       0.0074 * (normalized) PWY_R_HSA_168898_EXP_X_PWY_R_HSA_9006934_EXP
+ -       0.0196 * (normalized) PWY_R_HSA_168898_X_PWY_R_HSA_76002
+ +       0.6676
+
+
+
+Number of kernel evaluations: 110932435 (66.517% cached)
+
+Time taken to build model: 67.15 seconds
+
+Time taken to test model on training data: 0.27 seconds
+
+=== Error on training data ===
+
+Correlation coefficient                  0.3856
+Mean absolute error                      1.5706
+Root mean squared error                  2.0006
+Relative absolute error                 92.2343 %
+Root relative squared error             93.103  %
+Total Number of Instances             3410     
+
+Time taken to perform cross-validation: 526.38 seconds
+
+
+=== Cross-validation ===
+
+Correlation coefficient                  0.3632
+Mean absolute error                      1.5949
+Root mean squared error                  2.0215
+Relative absolute error                 93.6369 %
+Root relative squared error             94.0503 %
+Total Number of Instances             3410     
+
