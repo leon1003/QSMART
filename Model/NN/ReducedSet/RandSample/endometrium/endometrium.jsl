@@ -1,0 +1,41 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:From_Sanger,
+		:Fingerprint_834,
+		:Fingerprint_822,
+		:Fingerprint_819,
+		:Fingerprint_813,
+		:Fingerprint_797,
+		:Fingerprint_776,
+		:Fingerprint_712,
+		:Fingerprint_704,
+		:Fingerprint_697,
+		:Fingerprint_686,
+		:Fingerprint_677,
+		:Fingerprint_646,
+		:Fingerprint_635,
+		:Fingerprint_629,
+		:Fingerprint_617,
+		:Fingerprint_611,
+		:GO_0030878_EXP,
+		:CLS_average_ploidy,
+		:EXP_PIM2,
+		:PKA_105_CSV_X_Fingerprint_826,
+		:PKA_162_CSV_X_Fingerprint_644,
+		:PKA_197_ENG_X_Fingerprint_818,
+		:PKA_217_EXP_X_Fingerprint_818,
+		:EXP_NEK6_X_EXP_TOP2A,
+		:EXP_STK16_X_EXP_PEPD
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit(
+		NTanH( 3 ),
+		NTanH2( 9 ),
+		Penalty Method( "Absolute" ),
+		Number of Tours( 200 )
+	)
+);
