@@ -1,0 +1,48 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:Fingerprint_797,
+		:Fingerprint_697,
+		:Fingerprint_611,
+		:Name( "1:6197725" ),
+		:Name( "1:6197732" ),
+		:Name( "1:7663469" ),
+		:Name( "1:7664207" ),
+		:Name( "1:7664816" ),
+		:Name( "1:7664904" ),
+		:Name( "1:11127076" ),
+		:Name( "1:11231368" ),
+		:Name( "1:15930115" ),
+		:Name( "1:15931774" ),
+		:Name( "1:15934994" ),
+		:Name( "1:17632324" ),
+		:Name( "1:17696847" ),
+		:Name( "1:26771197" ),
+		:Name( "1:26779179" ),
+		:Name( "1:26779446" ),
+		:Name( "1:26780241" ),
+		:Name( "1:36286398" ),
+		:Name( "1:36466123" ),
+		:Name( "1:47272223" ),
+		:Name( "1:50970411" ),
+		:Name( "1:58783003" ),
+		:Name( "1:64844071" ),
+		:Name( "1:64847534" ),
+		:Name( "1:85270827" ),
+		:Name( "1:116395139" ),
+		:Name( "1:148962528" ),
+		:Name( "1:179114932" ),
+		:Name( "1:179117423" ),
+		:Name( "1:186370998" )
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit(
+		NTanH( 4 ),
+		NTanH2( 11 ),
+		Penalty Method( "Absolute" ),
+		Number of Tours( 200 )
+	)
+);
