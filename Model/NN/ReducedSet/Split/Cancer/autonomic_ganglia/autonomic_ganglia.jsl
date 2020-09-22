@@ -1,0 +1,24 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:MUT_MAST2,
+		:SFAM_MAST,
+		:SFAM_MAST_EXP,
+		:FAM_PKL_EXP,
+		:EXP_HASPIN,
+		:EXP_FER,
+		:EXP_SCYL1,
+		:EXP_TRPM6,
+		:EXP_NRK
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit(
+		NTanH( 8 ),
+		NTanH2( 62 ),
+		Penalty Method( "Absolute" ),
+		Number of Tours( 200 )
+	)
+);

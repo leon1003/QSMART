@@ -1,0 +1,33 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:MUT_EIF2AK1,
+		:REC_R_HSA_450346,
+		:PWY_R_HSA_1852241_EXP,
+		:PWY_R_HSA_453279,
+		:GO_0007166_CSV,
+		:GO_0008283,
+		:GO_0008283_EXP,
+		:GO_0010506,
+		:GO_0016572,
+		:GO_0030509_EXP,
+		:GO_0032147_CSV,
+		:GO_0050766_CSV,
+		:GO_0071560,
+		:SFAM_DYRK1,
+		:CLS_Histology_subtype_1_astrocytoma_Grade_III,
+		:EXP_CLK4,
+		:EXP_TRPM7,
+		:EXP_TBK1,
+		:EXP_TRIM33,
+		:EXP_MAPK1,
+		:EXP_STRADB,
+		:EXP_MAP3K20,
+		:EXP_CAMK1
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit( NTanH( 11 ), Penalty Method( "Absolute" ), Number of Tours( 300 ) )
+);

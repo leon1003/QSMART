@@ -1,0 +1,27 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:REC_R_HSA_3928578_CSV,
+		:PWY_R_HSA_109704,
+		:PWY_R_HSA_5689896,
+		:GO_0001570,
+		:GO_0006977_EXP,
+		:GO_0008285,
+		:GO_0034976_EXP,
+		:GO_0042981_EXP,
+		:GO_0043547,
+		:EXP_MAP2K4,
+		:EXP_MAP3K20,
+		:EXP_MAP3K6,
+		:EXP_CDK10,
+		:EXP_AATK,
+		:EXP_CDC42BPA,
+		:EXP_FAM198A,
+		:EXP_MYLK3
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit( NTanH( 10 ), Penalty Method( "Absolute" ), Number of Tours( 200 ) )
+);

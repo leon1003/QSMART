@@ -1,0 +1,37 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:PKA_190,
+		:PKA_190_CHA,
+		:PKA_190_EXP,
+		:DOM_Myosin_head_EXP,
+		:DOM_SH3_1,
+		:MUT_CDC42BPA_EXP,
+		:MUT_CDKL5,
+		:MUT_CDKL5_EXP,
+		:REC_R_HSA_2730861_EXP,
+		:REC_R_HSA_74885,
+		:REC_R_HSA_74885_EXP,
+		:PWY_R_HSA_111465,
+		:PWY_R_HSA_8864260,
+		:PWY_R_HSA_8878171,
+		:GO_0006357_EXP,
+		:GO_0008283,
+		:GO_0030900,
+		:GO_0030900_EXP,
+		:GO_0043547,
+		:GO_0048015_EXP,
+		:GO_0048170,
+		:EXP_MAP3K20,
+		:EXP_STK38,
+		:EXP_RPS6KB1,
+		:EXP_ATM,
+		:EXP_NEK11,
+		:EXP_BMPR2
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit( NTanH( 11 ), Penalty Method( "Absolute" ), Number of Tours( 200 ) )
+);
