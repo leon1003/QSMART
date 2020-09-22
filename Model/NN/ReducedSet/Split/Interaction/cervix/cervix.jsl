@@ -1,0 +1,15 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:PKA_137_POL_X_Fingerprint_576,
+		:EXP_BRD4_X_EXP_MYC,
+		:EXP_BRD4_X_EXP_NUMA1,
+		:EXP_IRAK3_X_EXP_IL1RAP,
+		:EXP_MAP2K7_X_EXP_PIK3CG
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit( NTanH( 7 ), Penalty Method( "Absolute" ), Number of Tours( 200 ) )
+);
