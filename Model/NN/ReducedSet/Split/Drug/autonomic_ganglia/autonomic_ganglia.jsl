@@ -1,0 +1,46 @@
+
+Neural(
+	Y( :IC50 ),
+	X(
+		:Fingerprint_833,
+		:Fingerprint_825,
+		:Fingerprint_824,
+		:Fingerprint_822,
+		:Fingerprint_820,
+		:Fingerprint_819,
+		:Fingerprint_818,
+		:Fingerprint_813,
+		:Fingerprint_806,
+		:Fingerprint_799,
+		:Fingerprint_797,
+		:Fingerprint_780,
+		:Fingerprint_779,
+		:Fingerprint_712,
+		:Fingerprint_710,
+		:Fingerprint_707,
+		:Fingerprint_705,
+		:Fingerprint_697,
+		:Fingerprint_687,
+		:Fingerprint_685,
+		:Fingerprint_677,
+		:Fingerprint_676,
+		:Fingerprint_672,
+		:Fingerprint_669,
+		:Fingerprint_656,
+		:Fingerprint_650,
+		:Fingerprint_646,
+		:Fingerprint_644,
+		:Fingerprint_617,
+		:Fingerprint_611,
+		:Fingerprint_576
+	),
+	Informative Missing( 0 ),
+	Validation Method( "KFold", 10 ),
+	Set Random Seed( 1234 ),
+	Fit(
+		NTanH( 8 ),
+		NTanH2( 62 ),
+		Penalty Method( "Absolute" ),
+		Number of Tours( 200 )
+	)
+);
