@@ -34,6 +34,11 @@ Please ensure the following software is installed:
 		* [Interaction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Interaction) `(interaction terms only)`
 			* [CANCER TYPE] `(23 cancer types)`
 
+## Test Sets
+
+* [GDSC2](https://github.com/leon1003/QSMART/tree/master/TestSet/GDSC2) `<https://www.cancerrxgene.org/downloads/bulk_download>`
+	* [CANCER TYPE] `(23 cancer types)`
+
 ## Citation
 
 To cite our work, please refer to:
