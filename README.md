@@ -69,6 +69,7 @@ Please ensure the following software is installed:
 				sink()
 				```
 				```
+				Parameters:
 				[MEASURE] = {"mse", "mae"}
 				[ALPHA] = {0, 0.01, …, 0.05, 0.1, 0.15, …, 1} (elastic net mixing parameter)
 				[STANDARDIZE] = {True, False}
@@ -86,6 +87,7 @@ Please ensure the following software is installed:
 				rm ./tmp/RF/[FS]/[CANCER TYPE]_[INDEX]_tmp.arff
 				```
 				```
+				Parameters:
 				[K] = {0, 5, 10, 15, 20} (number of attributes to randomly investigate)
 				[M] = {1, 5, 10, 15, 20} (minimum number of instances per leaf)
 				[DEPTH] = {0, 5, 10, 15} (maximum depth of the tree, 0 for unlimited)
@@ -101,6 +103,7 @@ Please ensure the following software is installed:
 				rm ./tmp/SVM/[FS]/[CANCER TYPE]_[INDEX]_tmp.arff
 				```
 				```
+				Parameters:
 				[C] = {0.01, 0.1, 1, 10} (complexity constant)
 				[L] = {0.00001, 0.0001, 0.001, 0.01, 0.1} (epsilon parameter in epsilon-insensitive loss function)
 				[K] = {"NormalizedPolyKernel", "PolyKernel", "RBFKernel -G [G]"} (kernel)
