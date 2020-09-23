@@ -15,35 +15,37 @@ Please ensure the following software is installed:
 
 * [Full Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet)
 	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/ReliefF))
-		* [CANCER TYPE] `(23 cancer types)`
+		* [CANCER TYPE].csv `(23 cancer types)`
 
 * [Reduced Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet)
 	* [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) `(drug and genomics fingerprints)`
-		* [CANCER TYPE] `(23 cancer types)`
+		* [CANCER TYPE].csv `(23 cancer types)`
 	* [NoDxM](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoDxM) `(no drug-mutation interactions)`
-		* [CANCER TYPE] `(23 cancer types)`
+		* [CANCER TYPE].csv `(23 cancer types)`
 	* [NoInteraction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoInteraction) `(no interaction terms)`
-		* [CANCER TYPE] `(23 cancer types)`
+		* [CANCER TYPE].csv `(23 cancer types)`
 	* [RandSample](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/RandSample) `(90% samples randomly selected from the full sets)`
-		* [CANCER TYPE] `(23 cancer types)`
+		* [CANCER TYPE].csv `(23 cancer types)`
 	* [Split](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split) `(split the full sets into cancer features, drug features, and interaction terms)`
 		* [Cancer](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Cancer) `(cancer features only)`
-			* [CANCER TYPE] `(23 cancer types)`
+			* [CANCER TYPE].csv `(23 cancer types)`
 		* [Drug](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Drug) `(drug features only)`
-			* [CANCER TYPE] `(23 cancer types)`
+			* [CANCER TYPE].csv `(23 cancer types)`
 		* [Interaction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Interaction) `(interaction terms only)`
-			* [CANCER TYPE] `(23 cancer types)`
+			* [CANCER TYPE].csv `(23 cancer types)`
 
 ## Test Set
 
 * [GDSC2](https://github.com/leon1003/QSMART/tree/master/TestSet/GDSC2) `<https://www.cancerrxgene.org/downloads/bulk_download>`
-	* [CANCER TYPE] `(23 cancer types)`
+	* [CANCER TYPE].csv `(23 cancer types)`
 
 ## Model
 
 * [ANOVA](https://github.com/leon1003/QSMART/tree/master/Model/ANOVA) `(analysis of variance)`
 	* [CANCER TYPE].R `(code)`
+	
 		test
+		
 	* [CANCER TYPE].txt `(result)`
 * [EN](https://github.com/leon1003/QSMART/tree/master/Model/EN) `(elastic net)`
 
