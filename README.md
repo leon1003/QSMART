@@ -15,7 +15,7 @@ Please ensure the following software is installed:
 
 * [Full Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet)
 	* [FEATURE SELECTION] _(_[AvgRank](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/AvgRank)_,_ [Classifier](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Classifier)_,_ [Correlation](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Correlation)_,_ [Lasso](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Lasso)_, and_ [ReliefF](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/ReliefF)_)_
-		* [CANCER TYPE] _(23 cancer types)_
+		* [CANCER TYPE] `(23 cancer types)`
 
 * [Reduced Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet)
 	* [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) _(drug and genomics fingerprints)_
