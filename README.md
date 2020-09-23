@@ -6,10 +6,10 @@ QSMART: Quantitative Structure-Mutation-Activity Relationship Tests. This reposi
 
 Please ensure the following software is installed:
 
-- `Java 1.8.0_144 or later <https://www.oracle.com/java/technologies/javase/8u144-relnotes.html>`
-- `WEKA 3.8.3 <https://waikato.github.io/weka-wiki/downloading_weka/>`
-- `R 3.6.2 <https://www.r-project.org/>`
-- `JMP Pro 14.1 <https://www.jmp.com/en_us/home.html> under Windows 10 environment`
+- `Java 1.8.0_144 or later <[https://www.oracle.com/java/technologies/javase/8u144-relnotes.html](https://www.oracle.com/java/technologies/javase/8u144-relnotes.html)>`
+- `WEKA 3.8.3 <[https://waikato.github.io/weka-wiki/downloading_weka/](https://waikato.github.io/weka-wiki/downloading_weka/)>`
+- `R 3.6.2 <[https://www.r-project.org/](https://www.r-project.org/)>`
+- `JMP Pro 14.1 <[https://www.jmp.com/en_us/home.html](https://www.jmp.com/en_us/home.html)> under Windows 10 environment`
 
 ## Training Sets
 
@@ -41,7 +41,7 @@ Please ensure the following software is installed:
 
 ## Model
 
-* [ANOVA](https://github.com/leon1003/QSMART/tree/master/Model/ANOVA) `(analysis of variance)`
+* [ANOVA](https://github.com/leon1003/QSMART/tree/master/Model/ANOVA) `(analysis of variance, implemented by R)`
 	* [CANCER TYPE].R `(code)`
 		```
 		mydata = read.table('./TrainingSet/AvgRank/[CANCER TYPE].csv',head=T,sep=",")
@@ -53,7 +53,7 @@ Please ensure the following software is installed:
 		sink()
 		```
 	* [CANCER TYPE].txt `(result)`
-* [EN](https://github.com/leon1003/QSMART/tree/master/Model/EN) `(elastic net)`
+* [EN](https://github.com/leon1003/QSMART/tree/master/Model/EN) `(elastic net, implemented by R)`
 	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/Model/EN/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/Model/EN/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/Model/EN/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/Model/EN/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/Model/EN/ReliefF))
 		* [CANCER TYPE]
 			* [CANCER TYPE]_[INDEX].R `(code)`
@@ -75,7 +75,7 @@ Please ensure the following software is installed:
 				[STANDARDIZE] = {True, False}
 				```
 			* [CANCER TYPE]_[INDEX].txt `(result)`
-* [NN](https://github.com/leon1003/QSMART/tree/master/Model/NN) `(neural networks)`
+* [NN](https://github.com/leon1003/QSMART/tree/master/Model/NN) `(neural networks, implemented by JMP)`
 	* [FullSet](https://github.com/leon1003/QSMART/tree/master/Model/NN/FullSet)
 		* [CANCER TYPE]
 			* [CANCER TYPE].csv `(prediction result)`
@@ -134,7 +134,7 @@ Please ensure the following software is installed:
 					* [CANCER TYPE].jsl `(JMP Scripts)`
 					* [CANCER TYPE].py `(prediction formula in Python code)`
 					* [CANCER TYPE].sas `(SAS DATA Step)`
-* [RF](https://github.com/leon1003/QSMART/tree/master/Model/RF) `(random forests)`
+* [RF](https://github.com/leon1003/QSMART/tree/master/Model/RF) `(random forests, implemented by WEKA)`
 	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/Model/RF/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/Model/RF/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/Model/RF/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/Model/RF/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/Model/RF/ReliefF))
 		* [CANCER TYPE]
 			* [CANCER TYPE]_[INDEX].sh `(code)`
@@ -150,7 +150,7 @@ Please ensure the following software is installed:
 				[DEPTH] = {0, 5, 10, 15} (maximum depth of the tree, 0 for unlimited)
 				```
 			* [CANCER TYPE]_[INDEX].txt `(result)`
-* [SVM](https://github.com/leon1003/QSMART/tree/master/Model/SVM) `(support vector machine)`
+* [SVM](https://github.com/leon1003/QSMART/tree/master/Model/SVM) `(support vector machine, implemented by WEKA)`
 	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/Model/SVM/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/Model/SVM/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/Model/SVM/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/Model/SVM/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/Model/SVM/ReliefF))
 		* [CANCER TYPE]
 			* [CANCER TYPE]_[INDEX].sh `(code)`
