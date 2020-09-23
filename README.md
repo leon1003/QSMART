@@ -15,11 +15,11 @@ Please ensure the following software is installed:
 
 * [Full Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet)
 	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/ReliefF))
-		* [CANCER TYPE] (23 cancer types)
+		* [CANCER TYPE] `(23 cancer types)`
 
 * [Reduced Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet)
-	* [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) (drug and genomics fingerprints)
-		* [CANCER TYPE] (23 cancer types)
+	* [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) `(drug and genomics fingerprints)`
+		* [CANCER TYPE] `(23 cancer types)`
 	* [NoDxM](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoDxM) (no drug-mutation interactions)
 		* [CANCER TYPE] (23 cancer types)
 	* [NoInteraction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoInteraction) (no interaction terms)
