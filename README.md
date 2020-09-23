@@ -63,10 +63,15 @@ Please ensure the following software is installed:
 				x = as.matrix(mydata[,4:ncol(mydata)])
 				y = as.matrix(mydata[,1])
 				set.seed(123)
-				glm = cv.glmnet(x,y,nfolds=10,type.measure="[MEASURE]",alpha=[ALPHA],family="gaussian",standardize=[STANDARDIZE])
+				glm = cv.glmnet(x,y,nfolds=10,type.measure=[MEASURE],alpha=[ALPHA],family="gaussian",standardize=[STANDARDIZE])
 				sink('./Model/EN/AvgRank/[CANCER TYPE]/[CANCER TYPE]_[INDEX].txt',append=TRUE)
 				print(glm$glmnet.fit)
 				sink()
+				```
+				```
+				[MEASURE] = {"mse","mae"}
+				[ALPHA] = {0, 0.01, …, 0.05, 0.1, 0.15, …, 1} (elastic net mixing parameter)
+				[STANDARDIZE] = {True,False}
 				```
 			* [CANCER TYPE]_[INDEX].txt `(result)`
 * [NN](https://github.com/leon1003/QSMART/tree/master/Model/NN) `(neural networks)`
