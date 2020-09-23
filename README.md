@@ -76,7 +76,64 @@ Please ensure the following software is installed:
 				```
 			* [CANCER TYPE]_[INDEX].txt `(result)`
 * [NN](https://github.com/leon1003/QSMART/tree/master/Model/NN) `(neural networks)`
-
+	* [FullSet](https://github.com/leon1003/QSMART/tree/master/Model/NN/FullSet)
+		* [CANCER TYPE]
+			* [CANCER TYPE].csv (prediction result)
+			* [CANCER TYPE].jrn (JMP Journal)
+			* [CANCER TYPE].jsl (JMP Scripts)
+			* [CANCER TYPE].py (prediction formula in Python code)
+			* [CANCER TYPE].sas (SAS DATA Step)
+	* [ReducedSet](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet)
+		* [Genomics](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/Genomics) (data: [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics))
+			* [CANCER TYPE]
+				* [CANCER TYPE].csv (prediction result)
+				* [CANCER TYPE].jrn (JMP Journal)
+				* [CANCER TYPE].jsl (JMP Scripts)
+				* [CANCER TYPE].py (prediction formula in Python code)
+				* [CANCER TYPE].sas (SAS DATA Step)
+		* [NoDxM](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/NoDxM) (data: [NoDxM](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoDxM))
+			* [CANCER TYPE]
+				* [CANCER TYPE].csv (prediction result)
+				* [CANCER TYPE].jrn (JMP Journal)
+				* [CANCER TYPE].jsl (JMP Scripts)
+				* [CANCER TYPE].py (prediction formula in Python code)
+				* [CANCER TYPE].sas (SAS DATA Step)
+		* [NoInteraction](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/NoInteraction) (data: [NoInteraction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoInteraction))
+			* [CANCER TYPE]
+				* [CANCER TYPE].csv (prediction result)
+				* [CANCER TYPE].jrn (JMP Journal)
+				* [CANCER TYPE].jsl (JMP Scripts)
+				* [CANCER TYPE].py (prediction formula in Python code)
+				* [CANCER TYPE].sas (SAS DATA Step)
+		* [RandSample](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/RandSample) (data: [RandSample](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/RandSample))
+			* [CANCER TYPE]
+				* [CANCER TYPE].csv (prediction result)
+				* [CANCER TYPE].jrn (JMP Journal)
+				* [CANCER TYPE].jsl (JMP Scripts)
+				* [CANCER TYPE].py (prediction formula in Python code)
+				* [CANCER TYPE].sas (SAS DATA Step)
+		* Split
+			* [Cancer](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/Split/Cancer) (data: [Cancer](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Cancer))
+				* [CANCER TYPE]
+					* [CANCER TYPE].csv (prediction result)
+					* [CANCER TYPE].jrn (JMP Journal)
+					* [CANCER TYPE].jsl (JMP Scripts)
+					* [CANCER TYPE].py (prediction formula in Python code)
+					* [CANCER TYPE].sas (SAS DATA Step)
+			* [Drug](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/Split/Drug) (data: [Drug](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Drug))
+				* [CANCER TYPE]
+					* [CANCER TYPE].csv (prediction result)
+					* [CANCER TYPE].jrn (JMP Journal)
+					* [CANCER TYPE].jsl (JMP Scripts)
+					* [CANCER TYPE].py (prediction formula in Python code)
+					* [CANCER TYPE].sas (SAS DATA Step)
+			* [Interaction](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/Split/Interaction) (data: [Interaction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Interaction))
+				* [CANCER TYPE]
+					* [CANCER TYPE].csv (prediction result)
+					* [CANCER TYPE].jrn (JMP Journal)
+					* [CANCER TYPE].jsl (JMP Scripts)
+					* [CANCER TYPE].py (prediction formula in Python code)
+					* [CANCER TYPE].sas (SAS DATA Step)
 * [RF](https://github.com/leon1003/QSMART/tree/master/Model/RF) `(random forests)`
 	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/Model/RF/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/Model/RF/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/Model/RF/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/Model/RF/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/Model/RF/ReliefF))
 		* [CANCER TYPE]
