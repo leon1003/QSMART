@@ -20,19 +20,19 @@ Please ensure the following software is installed:
 * [Reduced Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet)
 	* [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) `(drug and genomics fingerprints)`
 		* [CANCER TYPE] `(23 cancer types)`
-	* [NoDxM](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoDxM) (no drug-mutation interactions)
-		* [CANCER TYPE] (23 cancer types)
-	* [NoInteraction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoInteraction) (no interaction terms)
-		* [CANCER TYPE] (23 cancer types)
-	* [RandSample](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/RandSample) (90% samples randomly selected from the full sets)
-		* [CANCER TYPE] (23 cancer types)
-	* [Split](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split) (split the full sets into cancer features, drug features, and interaction terms)
-		* [Cancer](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Cancer) (cancer features only)
-			* [CANCER TYPE] (23 cancer types)
-		* [Drug](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Drug) (drug features only)
-			* [CANCER TYPE] (23 cancer types)
-		* [Interaction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Interaction) (interaction terms only)
-			* [CANCER TYPE] (23 cancer types)
+	* [NoDxM](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoDxM) `(no drug-mutation interactions)`
+		* [CANCER TYPE] `(23 cancer types)`
+	* [NoInteraction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoInteraction) `(no interaction terms)`
+		* [CANCER TYPE] `(23 cancer types)`
+	* [RandSample](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/RandSample) `(90% samples randomly selected from the full sets)`
+		* [CANCER TYPE] `(23 cancer types)`
+	* [Split](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split) `(split the full sets into cancer features, drug features, and interaction terms)`
+		* [Cancer](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Cancer) `(cancer features only)`
+			* [CANCER TYPE] `(23 cancer types)`
+		* [Drug](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Drug) `(drug features only)`
+			* [CANCER TYPE] `(23 cancer types)`
+		* [Interaction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Interaction) `(interaction terms only)`
+			* [CANCER TYPE] `(23 cancer types)`
 
 ## Citation
 
