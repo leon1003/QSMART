@@ -171,7 +171,7 @@ Please ensure the following software is installed:
 ## JMP Tutorial
 1. File -> Open -> [CANCER TYPE].csv
 
-	![JMP Step 1](/pic/JMP_NN_Step_1.png)
+	![JMP Step 1](/pic/JMP_NN_Step_1.png = 250x)
 
 2. Analyze -> Predictive Modeling -> Neural
 
