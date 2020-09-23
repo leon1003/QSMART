@@ -18,11 +18,7 @@ Please ensure the following software is installed:
 		* [CANCER TYPE].csv `(23 cancer types)`
 
 * [Reduced Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet)
-    * [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) `(drug and genomics fingerprints)`
-        
-	test
-	test
-	
+	* [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) `(drug and genomics fingerprints)`
 		* [CANCER TYPE].csv `(23 cancer types)`
 	* [NoDxM](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoDxM) `(no drug-mutation interactions)`
 		* [CANCER TYPE].csv `(23 cancer types)`
@@ -48,6 +44,9 @@ Please ensure the following software is installed:
 * [ANOVA](https://github.com/leon1003/QSMART/tree/master/Model/ANOVA) `(analysis of variance)`
 	* [CANCER TYPE].R `(code)`
 
+
+    aaaa
+    bbbb
 
 		
 	* [CANCER TYPE].txt `(result)`
