@@ -14,7 +14,7 @@ Please ensure the following software is installed:
 ## Training Sets
 
 * [Full Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet)
-	* [FEATURE SELECTION] `([AvgRank](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/ReliefF))`
+	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/TrainingSet/FullSet/ReliefF))
 		* [CANCER TYPE] (23 cancer types)
 
 * [Reduced Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet)
