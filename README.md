@@ -59,25 +59,38 @@ Please ensure the following software is installed:
 			* [CANCER TYPE]_[INDEX].R `(code)`
 				```
 				library(glmnet)
-				mydata = read.table("./TrainingSet/AvgRank/[CANCER TYPE].csv",head=T,sep=",")
+				mydata = read.table("./TrainingSet/[FS]/[CANCER TYPE].csv",head=T,sep=",")
 				x = as.matrix(mydata[,4:ncol(mydata)])
 				y = as.matrix(mydata[,1])
 				set.seed(123)
 				glm = cv.glmnet(x,y,nfolds=10,type.measure=[MEASURE],alpha=[ALPHA],family="gaussian",standardize=[STANDARDIZE])
-				sink('./Model/EN/AvgRank/[CANCER TYPE]/[CANCER TYPE]_[INDEX].txt',append=TRUE)
+				sink('./Model/EN/[FS]/[CANCER TYPE]/[CANCER TYPE]_[INDEX].txt',append=TRUE)
 				print(glm$glmnet.fit)
 				sink()
 				```
 				```
-				[MEASURE] = {"mse","mae"}
+				[MEASURE] = {"mse", "mae"}
 				[ALPHA] = {0, 0.01, …, 0.05, 0.1, 0.15, …, 1} (elastic net mixing parameter)
-				[STANDARDIZE] = {True,False}
+				[STANDARDIZE] = {True, False}
 				```
 			* [CANCER TYPE]_[INDEX].txt `(result)`
 * [NN](https://github.com/leon1003/QSMART/tree/master/Model/NN) `(neural networks)`
 
 * [RF](https://github.com/leon1003/QSMART/tree/master/Model/RF) `(random forests)`
-
+	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/Model/RF/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/Model/RF/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/Model/RF/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/Model/RF/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/Model/RF/ReliefF))
+		* [CANCER TYPE]
+			* [CANCER TYPE]_[INDEX].sh `(code)`
+				```
+				java -classpath weka.jar weka.filters.unsupervised.attribute.Remove -R 2-3 -i ./TrainingSet/[FS]/[CANCER TYPE].csv -o ./tmp/RF/[FS]/[CANCER TYPE]_[INDEX]_tmp.arff
+				java -classpath weka.jar weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -V 0.001 -S 1 -c 1 -x 10 -K [K] -M [M] -depth [DEPTH] -t ./tmp/RF/[FS]/[CANCER TYPE]_[INDEX]_tmp.arff > ./Model/RF/[FS]/[CANCER TYPE]/[CANCER TYPE]_[INDEX].txt
+				rm ./tmp/RF/[FS]/[CANCER TYPE]_[INDEX]_tmp.arff
+				```
+				```
+				[K] = {0, 5, 10, 15, 20} (number of attributes to randomly investigate)
+				[M] = {1, 5, 10, 15, 20} (minimum number of instances per leaf)
+				[DEPTH] = {0, 5, 10, 15} (maximum depth of the tree, 0 for unlimited)
+				```
+			* [CANCER TYPE]_[INDEX].txt `(result)`
 * [SVM](https://github.com/leon1003/QSMART/tree/master/Model/SVM) `(support vector machine)`
 
 ## Citation
