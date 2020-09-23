@@ -48,7 +48,7 @@ Please ensure the following software is installed:
     asdasd
     asdasd
 		
-	* [CANCER TYPE].txt `(result)`
+* [CANCER TYPE].txt `(result)`
 * [EN](https://github.com/leon1003/QSMART/tree/master/Model/EN) `(elastic net)`
 
 * [NN](https://github.com/leon1003/QSMART/tree/master/Model/NN) `(neural networks)`
