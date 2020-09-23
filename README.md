@@ -19,6 +19,8 @@ Please ensure the following software is installed:
 
 * [Reduced Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet)
     * [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) `(drug and genomics fingerprints)`
+        test
+	test
 		* [CANCER TYPE].csv `(23 cancer types)`
 	* [NoDxM](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoDxM) `(no drug-mutation interactions)`
 		* [CANCER TYPE].csv `(23 cancer types)`
