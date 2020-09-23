@@ -168,6 +168,12 @@ Please ensure the following software is installed:
 				```
 			* [CANCER TYPE]_[INDEX].txt `(result)`
 
+## JMP Tutorial
+1. File -> Open -> [CANCER TYPE].csv
+1. Analyze -> Predictive Modeling -> Neural
+1. Select "IC50" -> Click "Y, Response" -> Select all features -> Click "X, Factor" -> OK
+1. Validation Method: KFold -> Number of Folds: 10 -> Random Seed: 1234 -> Hidden Layer Structure -> Penalty Method: Absolute -> Number of Tours: 200
+
 ## Citation
 
 To cite our work, please refer to:
