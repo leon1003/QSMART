@@ -13,7 +13,7 @@ Please ensure the following software is installed:
 
 ## Training Sets
 
-* Full Set
+* [Full Set] (https://github.com/leon1003/QSMART/tree/master/TrainingSet)
 	* [FEATURE SELECTION] (AvgRank, Classifier, Correlation, Lasso, and ReliefF)
 		* [CANCER TYPE] (23 cancer types)
 
