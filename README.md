@@ -112,7 +112,7 @@ Please ensure the following software is installed:
 				* [CANCER TYPE].jsl (JMP Scripts)
 				* [CANCER TYPE].py (prediction formula in Python code)
 				* [CANCER TYPE].sas (SAS DATA Step)
-		* Split
+		* [Split](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/Split) (data: [Split](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split))
 			* [Cancer](https://github.com/leon1003/QSMART/tree/master/Model/NN/ReducedSet/Split/Cancer) (data: [Cancer](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Cancer))
 				* [CANCER TYPE]
 					* [CANCER TYPE].csv (prediction result)
