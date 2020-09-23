@@ -18,7 +18,7 @@ Please ensure the following software is installed:
 		* [CANCER TYPE].csv `(23 cancer types)`
 
 * [Reduced Set](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet)
-	* [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) `(drug and genomics fingerprints)`
+    * [Genomics](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Genomics) `(drug and genomics fingerprints)`
 		* [CANCER TYPE].csv `(23 cancer types)`
 	* [NoDxM](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/NoDxM) `(no drug-mutation interactions)`
 		* [CANCER TYPE].csv `(23 cancer types)`
@@ -33,10 +33,6 @@ Please ensure the following software is installed:
 			* [CANCER TYPE].csv `(23 cancer types)`
 		* [Interaction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Interaction) `(interaction terms only)`
 			* [CANCER TYPE].csv `(23 cancer types)`
-
-    test
-    asdasd
-    asdasd
 
 ## Test Set
 
