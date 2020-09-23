@@ -55,8 +55,20 @@ Please ensure the following software is installed:
 	* [CANCER TYPE].txt `(result)`
 * [EN](https://github.com/leon1003/QSMART/tree/master/Model/EN) `(elastic net)`
 	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/Model/EN/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/Model/EN/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/Model/EN/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/Model/EN/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/Model/EN/ReliefF))
-		* [CANCER TYPE].R `(code)`
-		* [CANCER TYPE].txt `(result)`
+		* [CANCER TYPE]
+			* [CANCER TYPE]_[INDEX].R `(code)`
+				```
+				library(glmnet)
+				mydata = read.table("./TrainingSet/AvgRank/[CANCER TYPE].csv",head=T,sep=",")
+				x = as.matrix(mydata[,4:ncol(mydata)])
+				y = as.matrix(mydata[,1])
+				set.seed(123)
+				glm = cv.glmnet(x,y,nfolds=10,type.measure="[MEASURE]",alpha=[ALPHA],family="gaussian",standardize=[STANDARDIZE])
+				sink('./Model/EN/AvgRank/[CANCER TYPE]/[CANCER TYPE]_[INDEX].txt',append=TRUE)
+				print(glm$glmnet.fit)
+				sink()
+				```
+			* [CANCER TYPE]_[INDEX].txt `(result)`
 * [NN](https://github.com/leon1003/QSMART/tree/master/Model/NN) `(neural networks)`
 
 * [RF](https://github.com/leon1003/QSMART/tree/master/Model/RF) `(random forests)`
