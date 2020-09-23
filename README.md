@@ -43,10 +43,9 @@ Please ensure the following software is installed:
 
 * [ANOVA](https://github.com/leon1003/QSMART/tree/master/Model/ANOVA) `(analysis of variance)`
 	* [CANCER TYPE].R `(code)`
-	
-		test
-		asdasd
-		asdasd
+    test
+    asdasd
+    asdasd
 		
 	* [CANCER TYPE].txt `(result)`
 * [EN](https://github.com/leon1003/QSMART/tree/master/Model/EN) `(elastic net)`
