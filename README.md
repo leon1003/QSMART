@@ -20,6 +20,7 @@ Please ensure the following software is installed:
 > Reduced Set
 >> Genomics (drug and genomics fingerprints)
 >>> [CANCER TYPE] (23 cancer types)
+
 >> NoDxM (no drug-mutation interactions)
 >>> [CANCER TYPE] (23 cancer types)
 >> NoInteraction (no interaction terms)
