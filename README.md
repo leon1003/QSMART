@@ -92,6 +92,21 @@ Please ensure the following software is installed:
 				```
 			* [CANCER TYPE]_[INDEX].txt `(result)`
 * [SVM](https://github.com/leon1003/QSMART/tree/master/Model/SVM) `(support vector machine)`
+	* [FEATURE SELECTION] ([AvgRank](https://github.com/leon1003/QSMART/tree/master/Model/SVM/AvgRank), [Classifier](https://github.com/leon1003/QSMART/tree/master/Model/SVM/Classifier), [Correlation](https://github.com/leon1003/QSMART/tree/master/Model/SVM/Correlation), [Lasso](https://github.com/leon1003/QSMART/tree/master/Model/SVM/Lasso), and [ReliefF](https://github.com/leon1003/QSMART/tree/master/Model/SVM/ReliefF))
+		* [CANCER TYPE]
+			* [CANCER TYPE]_[INDEX].sh `(code)`
+				```
+				java -classpath weka.jar weka.filters.unsupervised.attribute.Remove -R 2-3 -i ./TrainingSet/[FS]/[CANCER TYPE].csv -o ./tmp/SVM/[FS]/[CANCER TYPE]_[INDEX]_tmp.arff
+				java -classpath weka.jar weka.classifiers.functions.SMOreg -C [C] -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L [L] -W 1" -K "weka.classifiers.functions.supportVector.[K]" -c 1 -x 10 -t ./tmp/SVM/[FS]/[CANCER TYPE]_[INDEX]_tmp.arff > ./Model/SVM/[FS]/[CANCER TYPE]/[CANCER TYPE]_[INDEX].txt
+				rm ./tmp/SVM/[FS]/[CANCER TYPE]_[INDEX]_tmp.arff
+				```
+				```
+				[C] = {0.01, 0.1, 1, 10} (complexity constant)
+				[L] = {0.00001, 0.0001, 0.001, 0.01, 0.1} (epsilon parameter in epsilon-insensitive loss function)
+				[K] = {"NormalizedPolyKernel", "PolyKernel", "RBFKernel -G [G]"} (kernel)
+				[G] = {0.001, 0.01, 0.1} (gamma parameter)
+				```
+			* [CANCER TYPE]_[INDEX].txt `(result)`
 
 ## Citation
 
