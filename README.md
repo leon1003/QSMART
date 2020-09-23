@@ -34,6 +34,10 @@ Please ensure the following software is installed:
 		* [Interaction](https://github.com/leon1003/QSMART/tree/master/TrainingSet/ReducedSet/Split/Interaction) `(interaction terms only)`
 			* [CANCER TYPE].csv `(23 cancer types)`
 
+    test
+    asdasd
+    asdasd
+
 ## Test Set
 
 * [GDSC2](https://github.com/leon1003/QSMART/tree/master/TestSet/GDSC2) `<https://www.cancerrxgene.org/downloads/bulk_download>`
@@ -44,11 +48,9 @@ Please ensure the following software is installed:
 * [ANOVA](https://github.com/leon1003/QSMART/tree/master/Model/ANOVA) `(analysis of variance)`
 	* [CANCER TYPE].R `(code)`
 
-    test
-    asdasd
-    asdasd
+
 		
-* [CANCER TYPE].txt `(result)`
+	* [CANCER TYPE].txt `(result)`
 * [EN](https://github.com/leon1003/QSMART/tree/master/Model/EN) `(elastic net)`
 
 * [NN](https://github.com/leon1003/QSMART/tree/master/Model/NN) `(neural networks)`
