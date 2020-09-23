@@ -171,19 +171,19 @@ Please ensure the following software is installed:
 ## JMP Tutorial
 1. File -> Open -> [CANCER TYPE].csv
 
-	<img src="/pic/JMP_NN_Step_1.png" alt="JMP_NN_Step_1" width=50%/>
+	<img src="/pic/JMP_NN_Step_1.png" alt="JMP_NN_Step_1" width=232/>
 
 2. Analyze -> Predictive Modeling -> Neural
 
-	<img src="/pic/JMP_NN_Step_2.png" alt="JMP_NN_Step_2" width=50%/>
+	<img src="/pic/JMP_NN_Step_2.png" alt="JMP_NN_Step_2" width=450/>
 
 3. Select "IC50" -> Click "Y, Response" -> Select all features -> Click "X, Factor" -> OK
 
-	<img src="/pic/JMP_NN_Step_3.png" alt="JMP_NN_Step_3" width=50%/>
+	<img src="/pic/JMP_NN_Step_3.png" alt="JMP_NN_Step_3" width=325/>
 
 4. Validation Method: KFold -> Number of Folds: 10 -> Random Seed: 1234 -> Hidden Layer Structure -> Penalty Method: Absolute -> Number of Tours: 200
 
-	<img src="/pic/JMP_NN_Step_4.png" alt="JMP_NN_Step_4" width=50%/>
+	<img src="/pic/JMP_NN_Step_4.png" alt="JMP_NN_Step_4" width=190/>
 
 ## Citation
 
