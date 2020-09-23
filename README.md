@@ -6,7 +6,7 @@ QSMART: Quantitative Structure-Mutation-Activity Relationship Tests. This reposi
 
 Please ensure the following software is installed:
 
-- `Java 1.8.0_144 or later <https://www.oracle.com/java/technologies/javase/8u144-relnotes.html>`
+- `Java 1.8.0_144 or later` [https://www.oracle.com/java/technologies/javase/8u144-relnotes.html](https://www.oracle.com/java/technologies/javase/8u144-relnotes.html)
 - `WEKA 3.8.3 <https://waikato.github.io/weka-wiki/downloading_weka/>`
 - `R 3.6.2 <https://www.r-project.org/>`
 - `JMP Pro 14.1 <https://www.jmp.com/en_us/home.html> under Windows 10 environment`
