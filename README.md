@@ -17,23 +17,22 @@ Please ensure the following software is installed:
 	* [FEATURE SELECTION] (AvgRank, Classifier, Correlation, Lasso, and ReliefF)
 		* [CANCER TYPE] (23 cancer types)
 
-> Reduced Set
->> Genomics (drug and genomics fingerprints)
->>> [CANCER TYPE] (23 cancer types)
-
->> NoDxM (no drug-mutation interactions)
->>> [CANCER TYPE] (23 cancer types)
->> NoInteraction (no interaction terms)
->>> [CANCER TYPE] (23 cancer types)
->> RandSample (90% samples randomly selected from the full sets)
->>> [CANCER TYPE] (23 cancer types)
->> Split (split the full sets into cancer features, drug features, and interaction terms)
->>> Cancer (cancer features only)
->>>> [CANCER TYPE] (23 cancer types)
->>> Drug (drug features only)
->>>> [CANCER TYPE] (23 cancer types)
->>> Interaction (interaction terms only)
->>>> [CANCER TYPE] (23 cancer types)
+* Reduced Set
+	* Genomics (drug and genomics fingerprints)
+		* [CANCER TYPE] (23 cancer types)
+	* NoDxM (no drug-mutation interactions)
+		* [CANCER TYPE] (23 cancer types)
+	* NoInteraction (no interaction terms)
+		* [CANCER TYPE] (23 cancer types)
+	* RandSample (90% samples randomly selected from the full sets)
+		* [CANCER TYPE] (23 cancer types)
+	* Split (split the full sets into cancer features, drug features, and interaction terms)
+		* Cancer (cancer features only)
+			* [CANCER TYPE] (23 cancer types)
+		* Drug (drug features only)
+			* [CANCER TYPE] (23 cancer types)
+		* Interaction (interaction terms only)
+			* [CANCER TYPE] (23 cancer types)
 
 ## Citation
 
