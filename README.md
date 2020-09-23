@@ -13,9 +13,9 @@ Please ensure the following software is installed:
 
 ## Training Sets
 
-> Full Set
->> [FEATURE SELECTION] (AvgRank, Classifier, Correlation, Lasso, and ReliefF)
->>> [CANCER TYPE] (23 cancer types)
+* Full Set
+	*[FEATURE SELECTION] (AvgRank, Classifier, Correlation, Lasso, and ReliefF)
+		*[CANCER TYPE] (23 cancer types)
 
 > Reduced Set
 >> Genomics (drug and genomics fingerprints)
